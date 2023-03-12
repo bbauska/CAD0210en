@@ -1175,18 +1175,16 @@ This will start the react development server on port 3000.
     Application. Enter the port number 3000 and click on the arrow mark
     to launch the application.
 
-![https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0210EN-SkillsNetwork/images/launch_app.png](./images/image060.png){width="6.5in"
-height="3.78125in"}
+![https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0210EN-SkillsNetwork/images/launch_app.png](./images/image060.png)
+{width="6.5in" height="3.78125in"}
 
 8.  This will launch the application in a new browser tab.
 
-![https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0210EN-SkillsNetwork/labs/module1/images/react_page.png](./images/image061.png){width="5.0in"
-height="2.6666666666666665in"}
+![https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0210EN-SkillsNetwork/labs/module1/images/react_page.png](./images/image061.png){width="5.0in" height="2.6666666666666665in"}
 
 Press Ctlr+C at the command prompt to stop the react development server.
 
-![](./images/image062.png){width="5.0in"
-height="2.7708333333333335in"}
+![](./images/image062.png){width="5.0in" height="2.7708333333333335in"}
 
 # Modify for Hello World App
 
@@ -1194,9 +1192,9 @@ height="2.7708333333333335in"}
     find **App.js** and **index.js**.
 
 ![](./images/image063.jpeg){width="2.0in"
-height="3.9833333333333334in"}The following code should be replaced in
-index.js inside of the src folder. All the styling will be removed as a
-result, leaving you with the basic needs.
+height="3.9833333333333334in"}
+The following code should be replaced in index.js inside of the src folder. 
+All the styling will be removed as a result, leaving you with the basic needs.
 
 1.  import React from \'react\';
 
