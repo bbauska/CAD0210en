@@ -1,6 +1,6 @@
 <h6>readme.md</h6>
 
-# CAD0210en
+<h1>CAD0210en</h1>
 Front-End Application Development with React - ibm and edx.org
 
 https://learning.edx.org/course/course-v1:IBM+CAD0210EN+3T2022/block-v1:IBM+CAD0210EN+3T2022+type@sequential+block@86a76b2ee03e41c9b4ab237824de84e3/block-v1:IBM+CAD0210EN+3T2022+type@vertical+block@1651a0e258694b6eb43c58d6a413d12c
@@ -12,7 +12,7 @@ IBM CAD0210en Front-End Application Development with React
 
 ![](./images/image001.png){width="3.0in" height="1.6875in"}
 
-# Welcome to Front-End Application Development with React
+<h1>Welcome to Front-End Application Development with React</h1>
 
 In this course, you will focus on client-side JavaScript and frameworks
 development with React. 
@@ -50,9 +50,9 @@ access the React web framework user interface (UI) library and run React
 applications in the labs. In case of any issues, you can contact your
 peer group through discussion forums. 
 
-# About the Course
+<h2>About the Course</h2>
 
-### Course Overview
+<h3>Course Overview</h3>
 
 React is one of the most popular frameworks in the Web and Front-end
 application Development category.  
@@ -93,11 +93,11 @@ Git, and fundamental concepts in Cloud programming. It is highly
 recommended that you complete the Introduction to Web Development with
 HTML, CSS, and JavaScript course before starting this course.
 
-# Pre-requisites
+<h3>Pre-requisites</h3>
 
 -   Computer and IT literacy. 
 
-# Module 1 - Building Rich Front-End Applications with React and ES6 
+<h3>Module 1 - Building Rich Front-End Applications with React and ES6</h3>
 
 1.  #### Module Introduction & Learning Objectives
 
@@ -121,7 +121,7 @@ HTML, CSS, and JavaScript course before starting this course.
 
 11. #### Module 1 Summary
 
-# Module 2 - React components
+<h3>Module 2 - React components</h3>
 
 1.  #### Module Introduction & Learning Objectives
 
@@ -143,52 +143,52 @@ HTML, CSS, and JavaScript course before starting this course.
 
 10. #### Cheatsheet- React Components
 
-### Module 3 - Advanced React
+<h3>Module 3 - Advanced React</h3>
 
-1.  Module Introduction & Learning Objectives
+1.  #### Module Introduction & Learning Objectives
 
-2.  Hooks
+2.  #### Hooks
 
-3.  Implementing Forms
+3.  #### Implementing Forms
 
-4.  Introduction to Redux
+4.  #### Introduction to Redux
 
-5.  Essential concepts of Redux - Stores, Procedures and Actions
+5.  #### Essential concepts of Redux - Stores, Procedures and Actions
 
-6.  Async with Redux
+6.  #### Async with Redux
 
-7.  Binding Redux and Flow
+7.  #### Binding Redux and Flow
 
-8.  Lab - React Redux 
+8.  #### Lab - React Redux 
 
-9.  Reading Module 3 Summary
+9.  #### Reading Module 3 Summary
 
-10. Glossary- Advanced React
+10. #### Glossary- Advanced React
 
-11. Cheatsheet- Advanced React
+11. #### Cheatsheet- Advanced React
 
-### Module 4 - Final Project
+<h3>Module 4 - Final Project</h3>
 
-1.  Module Introduction & Learning Objectives
+1.  #### Module Introduction & Learning Objectives
 
-2.  Practice Assignment - Hands-on Lab: Friends List Application Using
+2.  #### Practice Assignment - Hands-on Lab: Friends List Application Using
     Express Server with JWT
 
-3.  Project Overview: Scenario and Review Criteria
+3.  #### Project Overview: Scenario and Review Criteria
 
-4.  Project Breakdown
+4.  #### Project Breakdown
 
-5.  Hands-on Lab: Book Review Application
+5.  #### Hands-on Lab: Book Review Application
 
-6.  Module Summary
+6.  #### Module Summary
 
-# Course Wrap-Up
+<h3>Course Wrap-Up</h3>
 
 -   Congratulations & Next Steps
 
 -   Thanks, from the Coursera Team
 
-# Learning Objectives
+<h3>Learning Objectives</h3>
 
 -   Develop interactive user interfaces (UIs) and web applications using
     React, JSX, and ES6.
@@ -202,7 +202,7 @@ HTML, CSS, and JavaScript course before starting this course.
 -   Employ and work with various React concepts and features including
     props, states, hooks, forms, and Redux.
 
-# 1.1.Module Introduction
+<h2 id="ch1-1">1.1.Module Introduction</h2>
 
 As you become more proficient with JavaScript, you will find that it is
 a very dynamic language and looks different from the typical
@@ -226,11 +226,11 @@ components and change their properties and states in a dynamic UI.  
 -   Describe how to set and access properties in functional and class
     components
 
-# 1.2.Introduction to Frontend Frameworks and React (6:42)
+<h2 id="ch1-2">1.2.Introduction to Frontend Frameworks and React (6:42)</h2>
 
 ![](./images/image002.png){width="5.0in" height="2.75in"}
 
-# Welcome to Introduction to Front-End Frameworks and React.
+<h2>Welcome to Introduction to Front-End Frameworks and React</h2>
 
 ![](./images/image003.png){width="5.0in" height="2.75in"}
 
@@ -260,8 +260,7 @@ To make HTML dynamic, Angular uses directives.
 All the directives are available to the HTML where the library is
 included.
 
-![](./images/image005.png){width="5.0in"
-height="2.9123173665791775in"}
+![](./images/image005.png){width="5.0in" height="2.9123173665791775in"}
 
 Here, you see HTML using Angular with model-bind directives.
 
@@ -276,8 +275,7 @@ The HTML is considered as an entire object.
 
 As it is very lightweight, it renders fast.
 
-![](./images/image006.png){width="4.989583333333333in"
-height="2.90625in"}
+![](./images/image006.png){width="4.989583333333333in" height="2.90625in"}
 
 Here, you see a simple Vue page which is rendered as HTML.
 
@@ -290,8 +288,7 @@ React uses dynamic data binding and a virtual DOM to extend HTML syntax
 and to eliminate the need for code that keeps the user interface (UI)
 elements synchronized with the application state.
 
-![](./images/image007.png){width="8.0in"
-height="4.651890857392826in"}
+![](./images/image007.png){width="8.0in" height="4.651890857392826in"}
 
 This image shows HTML as a DOM.
 
@@ -333,9 +330,11 @@ The ReactDOM package is the glue between React and the DOM.
 
 3.  Babel package.
 
-> And Babel is the module which is available in most modern browsers.
->
-> It is used to compile and interpret the JSX.
+```
+And Babel is the module which is available in most modern browsers.
+
+It is used to compile and interpret the JSX.
+```
 
 ![](./images/image010.png){width="4.989583333333333in"
 height="2.90625in"}
@@ -1691,10 +1690,9 @@ height="1.0833333333333333in"}
 **Building Rich Front-End Applications with React and ES6**\
 **Module 1 Building Rich Front-End Applications with React and ES6**
 
-+-----------------+---------------------------+------------------------+
 | **P             | **Description**           | **Code Example**       |
 | ackage/Method** |                           |                        |
-+=================+===========================+========================+
+| --------------- | ------------------------- | ---------------------- |
 | **let and       | let allows you to         | 1.  {                  |
 | const**         | restrict the scope of     |                        |
 |                 | variables within the      | 2.  let a = 10         |
@@ -1716,9 +1714,7 @@ height="1.0833333333333333in"}
 |                 |                           | 10. num = 8            |
 |                 |                           |                        |
 |                 |                           | 11. console.log(num)   |
-+-----------------+---------------------------+------------------------+
 
-+----------+-----------------------------------+----------------------+
 | **Arrow  | Arrow functions allow you to      | 1.  hello = () =\>   |
 | fu       | write shorter function syntax.    |                      |
 | nction** |                                   | 2.  {                |
@@ -1727,10 +1723,8 @@ height="1.0833333333333333in"}
 |          |                                   |     World!\";        |
 |          |                                   |                      |
 |          |                                   | 4.  }                |
-+==========+===================================+======================+
-+----------+-----------------------------------+----------------------+
+| -------- | --------------------------------- | -------------------- |
 
-+---------+----------+------------------------------------------------+
 | **Pro   | The      | 1.  let promiseArgument = (resolve, reject)    |
 | mises** | Promise  |     =\>                                        |
 |         | object   |                                                |
@@ -1756,7 +1750,7 @@ height="1.0833333333333333in"}
 |         |          |     Promise(promiseArgument);                  |
 |         |          |                                                |
 |         |          | 12.                                            |
-+=========+==========+================================================+
+| ------- | -------- | ---------------------------------------------- |
 | **      | Class is | 1.  function car(name,year)                    |
 | class** | a        |                                                |
 |         | template | 2.  {                                          |
@@ -1776,7 +1770,7 @@ height="1.0833333333333333in"}
 |         |          | 9.  console.log(car.name)                      |
 |         |          |                                                |
 |         |          | 10. console.log(car.year)                      |
-+---------+----------+------------------------------------------------+
+| ------- | -------- | ---------------------------------------------- |
 | *       | A class  | 1.  class Square extends Rectangle             |
 | *Inheri | created  |                                                |
 | tance** | with a   | 2.  {                                          |
@@ -1806,7 +1800,7 @@ height="1.0833333333333333in"}
 |         |          | 14. }                                          |
 |         |          |                                                |
 |         |          | 15. Let mySquare = new Square(5,5)             |
-+---------+----------+------------------------------------------------+
+| ------- | -------- | ---------------------------------------------- |
 | **React | Co       | 1.  importReact from \'react\';                |
 | compo   | mponents |                                                |
 | nents** | are      | 2.  import {Text} from \'react-native';        |
@@ -1824,7 +1818,7 @@ height="1.0833333333333333in"}
 |         | c        | 8.  exportdefault Helloworld;                  |
 |         | omponent |                                                |
 |         | types.   |                                                |
-+---------+----------+------------------------------------------------+
+| ------- | -------- | ---------------------------------------------- |
 | **React | React    | 1.  import React from \"react\";               |
 | class   | class    |                                                |
 | Comp    | c        | 2.  class App extends React.Component {        |
@@ -1853,7 +1847,7 @@ height="1.0833333333333333in"}
 |         |          | > );}}                                         |
 |         |          |                                                |
 |         |          | 11. export default App;                        |
-+---------+----------+------------------------------------------------+
+| ------- | -------- | ---------------------------------------------- |
 | **on    | When an  | 1.  function changeColor() {                   |
 | Click** | event    |                                                |
 |         | fires,   | 2.  const shoot = () =\> {                     |
@@ -1876,13 +1870,13 @@ height="1.0833333333333333in"}
 |         |          | createRoot(document.getElementById(\'root\')); |
 |         |          |                                                |
 |         |          | 10. root.render(\<changeColor /\>);            |
-+---------+----------+------------------------------------------------+
+| ------- | -------- | ---------------------------------------------- |
 |         |          |                                                |
-+---------+----------+------------------------------------------------+
+| ------- | -------- | ---------------------------------------------- |
 
 ### © IBM Corporation 2022. All rights reserved.
 
-# Module 1 Summary
+## Module 1 Summary
 
 Congratulations! You have completed this module. At this point in the
 course, you know:
@@ -1906,9 +1900,9 @@ course, you know:
 
 -   Class components are more versatile.
 
-# Module 2 Introduction and Learning Objectives
+## Module 2 Introduction and Learning Objectives
 
-## Module Introduction
+### Module Introduction
 
 How do you think data is managed in React? Changes in the component data
 are managed using state and props in a React application. In addition,
@@ -1927,7 +1921,7 @@ You will;
 -   Know about the different testing tools that you can use to test the
     component without manual verification.    
 
-## Learning Objectives
+### Learning Objectives
 
 -   Explain what states and props in React are,
 
@@ -1939,7 +1933,7 @@ You will;
 
 -   Describe the different approaches and tools of component testing.
 
-# Introduction to States (6:14)
+## Introduction to States (6:14)
 
 Welcome to Introduction to States.
 
@@ -2440,7 +2434,7 @@ This is referred to as a component lifecycle.
 -   And, the unmounting phase is the third and final phase, where the
     component is removed from the DOM.
 
-# Connecting React to External Services (2:56)
+## Connecting React to External Services (2:56)
 
 Welcome to Connecting React to External Services.
 
@@ -2514,7 +2508,7 @@ In this section you learned that:
 -   You can receive and send information from a React client to an
     external server with GET, POST, UPDATE, and DELETE requests.
 
-# Testing React Components (8:51)
+<h3 id ="ch9-9">## Testing React Components (8:51)</h3>
 
 Welcome to Testing React Components.
 
@@ -2723,13 +2717,13 @@ In this section, you learned that: 
     your tests by testing your components in the same way as an end user
     would use the components.
 
-# Hands-on Lab: React Todo List Application
+## Hands-on Lab: React Todo List Application
 
 In this lab, you will be building TODO list application using React
 components. You will discover how to create, view, delete, complete,
 modify and save to-do lists.
 
-### **Objective:**
+<h4><b>Objective:</b></h4>
 
 After completing this lab, you will be able to:
 
@@ -2748,14 +2742,14 @@ Note: In case you are unable to access the Start Lab button,
 instructions to complete this lab are also
 available[ HERE. ](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0210EN-SkillsNetwork/labs/ToDo_List_React_Application/Hands-on_lab_-_React_todo_list_application.md.html)
 
-## Hands-on Lab: React Todo List Application (External resource) 
+<h4>Hands-on Lab: React Todo List Application (External resource)</h4>
 
 Clicking on the Start Lab button below will launch the cloud based SN
 labs virtual labs environment with instructions to complete this lab.
 Your username and email will be shared with SN Labs to authenticate and
 provision your lab environment.
 
-# Module 2 Summary
+## Module 2 Summary
 
 Congratulations! You have completed this module. At this point in the
 course, you know:
@@ -2778,14 +2772,13 @@ course, you know:
 -   React components can be tested using Mocha, Chai, Sinon but
     preferred approaches are by using Jest and React Testing Library.
 
-# Glossary - React Components
+<h2>Glossary - React Components</h2>
 
-![https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0210EN-SkillsNetwork/Glossary/images/IDSN-new-logo\_\_1\_.png](./images/image091.png){width="3.125in"
-height="1.0833333333333333in"}
+![https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0210EN-SkillsNetwork/Glossary/images/IDSN-new-logo\_\_1\_.png](./images/image091.png){width="3.125in" height="1.0833333333333333in"}
 
-## Developing Cloud Applications with React
+<h3>Developing Cloud Applications with React</h3>
 
-# Module 2 : Glossary - React Components
+<h2 id="ch2">Module 2 : Glossary - React Components</h2>
 
   ----------------------------------------------------------------------------------
   **Term**                                       **Definition**
@@ -2915,20 +2908,19 @@ height="1.0833333333333333in"}
                                                  
   ----------------------------------------------------------------------------------
 
-+--------------------------------------------------------------------+---+---+---+
+| ------------------------------------------------------------------ | - | - | - |
 | ### © IBM Corporation 2022. All rights reserved.                   |   |   |   |
-+====================================================================+===+===+===+
-+--------------------------------------------------------------------+---+---+---+
+| ------------------------------------------------------------------ | - | - | - |
 
-# Cheatsheet - React Components
+<h2>Cheatsheet - React Components</h2>
 
 ![https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0210EN-SkillsNetwork/CheatSheets/images/IDSNlogo.png](./images/image091.png){width="3.125in"
 height="1.0833333333333333in"}
 
 **React components**\
-**Module 2 React components**
+<h2><b>Module 2 React components</b></h2>
 
-+-------+---+------------------------------+---+------------------------------+
+| ----- | - | ---------------------------- | - | ---------------------------- |
 | **P   |   | **Description**              | * |                              |
 | ackag |   |                              | * |                              |
 | e/Met |   |                              | C |                              |
@@ -2944,7 +2936,7 @@ height="1.0833333333333333in"}
 |       |   |                              | e |                              |
 |       |   |                              | * |                              |
 |       |   |                              | * |                              |
-+=======+===+==============================+===+==============================+
+| ----- | - | ---------------------------- | - | ---------------------------- |
 | **    |   | The state object is where    | 1 |                              |
 | React |   | you keep the component\'s    | . |                              |
 | st    |   | property values.             |   |                              |
@@ -3170,7 +3162,7 @@ height="1.0833333333333333in"}
 |       |   |                              | ) |                              |
 |       |   |                              | } |                              |
 |       |   |                              | } |                              |
-+-------+---+------------------------------+---+------------------------------+
+| ----- | - | ---------------------------- | - | ---------------------------- |
 | **Pr  | P |                              |   | 1.  class                    |
 | ops** | r |                              |   |     TestComp                 |
 |       | o |                              |   | onentextendsReact.component{ |
@@ -3240,7 +3232,7 @@ height="1.0833333333333333in"}
 |       | t |                              |   |                              |
 |       | s |                              |   |                              |
 |       | . |                              |   |                              |
-+-------+---+------------------------------+---+------------------------------+
+| ----- | - | ---------------------------- | - | ---------------------------- |
 | **    | W |                              |   | 1.  class Header extends     |
 | mount | h |                              |   |     React.Component {        |
 | ing** | e |                              |   |                              |
@@ -3403,7 +3395,7 @@ height="1.0833333333333333in"}
 |       | ( |                              |   |                              |
 |       | ) |                              |   |                              |
 |       | . |                              |   |                              |
-+-------+---+------------------------------+---+------------------------------+
+| ----- | - | ---------------------------- | - | ---------------------------- |
 | **    | W |                              |   | 1.  class App extends        |
 | updat | h |                              |   |     React.Component{         |
 | ing** | e |                              |   |                              |
@@ -3570,7 +3562,7 @@ height="1.0833333333333333in"}
 |       | e |                              |   |                              |
 |       | ( |                              |   |                              |
 |       | ) |                              |   |                              |
-+-------+---+------------------------------+---+------------------------------+
+| ----- | - | ---------------------------- | - | ---------------------------- |
 | **Un  | W |                              |   | 1.  import React from        |
 | mount | h |                              |   |     \'react\';               |
 | ing** | e |                              |   |                              |
@@ -3671,7 +3663,7 @@ height="1.0833333333333333in"}
 |       | d |                              |   |                              |
 |       | e |                              |   |                              |
 |       | . |                              |   |                              |
-+-------+---+------------------------------+---+------------------------------+
+| ----- | - | ---------------------------- | - | ---------------------------- |
 
 ## Changelog
 
@@ -3684,7 +3676,7 @@ height="1.0833333333333333in"}
 
 ### © IBM Corporation 2022. All rights reserved. 
 
-# Module Introduction and Learning Objectives
+<h3>Module Introduction and Learning Objectives</h3>
 
 ### **Module Introduction**
 
@@ -3695,7 +3687,7 @@ without using classes. Redux offers a centralized state management
 system in your application. Learn all about the Redux elements involved
 in updating of the component properties.   
 
-### **Learning Objectives**
+<h4><b>Learning Objectives</b></h4>
 
 -   Explain the different types of Hooks
 
@@ -3709,7 +3701,7 @@ in updating of the component properties.   
 
 -   Describe data flow in Redux
 
-# Hooks (5:45)
+<h3>Hooks (5:45)</h3>
 
 Welcome to Hooks.
 
@@ -3865,7 +3857,7 @@ In this section you learned that:
 -   And finally, Custom Hooks enable you to add special and unique
     functionality to your applications.
 
-# Implementing Forms (7:29)
+<h3>Implementing Forms (7:29)</h3>
 
 Welcome to Implementing Forms.
 
@@ -4064,7 +4056,7 @@ In this section, you learned that:
 -   And React Hook forms give better performance and reduce the number
     of re-renders.
 
-# Introduction to Redux (5:25)
+<h3>Introduction to Redux (5:25)</h3>
 
 Welcome to Introduction to Redux. After reading this section, you will
 be able to:
@@ -4190,7 +4182,7 @@ In this section, you learned that:
 -   And finally, Redux is used when you need to manage the state of the
     components.
 
-# Essential Concepts of Redux (4:57)
+<h3>Essential Concepts of Redux (4:57)</h3>
 
 Welcome to Essential Concepts of Redux.
 
@@ -4321,7 +4313,7 @@ In this section, you learned that:
 -   And you can subscribe to listen to events whenever the Store
     updates.
 
-# Async with Redux (8:17)
+<h3>Async with Redux (8:17)</h3>
 
 Welcome to Async with Redux.
 
@@ -4540,7 +4532,7 @@ In this section, you learned that:
 -   Redux Thunk allows you to pass functions within your action creators
     to create an asynchronous Redux.
 
-# Binding Redux and Flow (6:14)
+<h3>Binding Redux and Flow (6:14)</h3>
 
 Welcome to Binding Redux and Flow.
 
@@ -4699,7 +4691,7 @@ In this section, you learned that:
 -   And, it\'s easier to manage the state when actions performed on the
     UI are separated from the changing of the state.
 
-# Hands-on Lab: React Redux
+<h3>Hands-on Lab: React Redux</h3>
 
 In this lab, you will be building an increment counter using Redux.
 
@@ -4728,14 +4720,14 @@ Note: In case you are unable to access the Start Lab button,
 instructions to complete this lab are also available
 [ HERE. ](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0210EN-SkillsNetwork/labs/module3/Hands-on-lab-react-redux.md.html)
 
-## Hands-on Lab: React Redux (External resource) 
+<h3>Hands-on Lab: React Redux (External resource)</h3>
 
 Clicking on the Start Lab button below will launch the cloud based SN
 labs virtual labs environment with instructions to complete this lab.
 Your username and email will be shared with SN Labs to authenticate and
 provision your lab environment.
 
-# Reading: Module 3 Summary
+<h3>Reading: Module 3 Summary</h3>
 
 Congratulations! You have completed this module. At this point in the
 course, you know:
@@ -4757,16 +4749,14 @@ course, you know:
 
 -   The data flow in the React-Redux application is unidirectional.  
 
-# Glossary - Advanced React
+<h3>Glossary - Advanced React</h3>
 
 ![https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0210EN-SkillsNetwork/Glossary/images/IDSN-new-logo\_\_1\_.png](./images/image091.png){width="3.125in"
 height="1.0833333333333333in"}
 
-# Developing Cloud Applications with React
+<h3>Developing Cloud Applications with React</h3>
 
-### 
-
-## Module 3: Glossary - Advanced React
+<h2>Module 3: Glossary - Advanced React</h2>
 
   -----------------------------------------------------------------------
   **Term**                            **Definition**
@@ -4885,7 +4875,7 @@ height="1.0833333333333333in"}
 **Advanced React**\
 **Module 3 Advanced React**
 
-+-----------+---+--------+---+------------------------------------------------+
+| --------- | - | ------ | - | ---------------------------------------------- |
 | **Package |   | **D    | * |                                                |
 | /Method** |   | escrip | * |                                                |
 |           |   | tion** | C |                                                |
@@ -4901,7 +4891,7 @@ height="1.0833333333333333in"}
 |           |   |        | e |                                                |
 |           |   |        | * |                                                |
 |           |   |        | * |                                                |
-+===========+===+========+===+================================================+
+| --------- | - | ------ | - | ---------------------------------------------- |
 | **Hooks** |   | Fun    | 1 |                                                |
 |           |   | ctions | . |                                                |
 |           |   | called |   |                                                |
@@ -5165,7 +5155,7 @@ height="1.0833333333333333in"}
 |           |   |        | p |                                                |
 |           |   |        | p |                                                |
 |           |   |        | ; |                                                |
-+-----------+---+--------+---+------------------------------------------------+
+| --------- | - | ------ | - | ---------------------------------------------- |
 | **React   | R |        |   | 1.  import React, {Component} from \"react\";  |
 | Forms**   | e |        |   |                                                |
 |           | a |        |   | 2.  export default functionApp() {             |
@@ -5224,7 +5214,7 @@ height="1.0833333333333333in"}
 |           | t |        |   |                                                |
 |           | e |        |   |                                                |
 |           | . |        |   |                                                |
-+-----------+---+--------+---+------------------------------------------------+
+| --------- | - | ------ | - | ---------------------------------------------- |
 | **Redux** | R |        |   | 1.  \$ npm install redux react-redux \--save   |
 |           | e |        |   |                                                |
 |           | d |        |   |                                                |
@@ -5413,13 +5403,13 @@ height="1.0833333333333333in"}
 |           | p |        |   |                                                |
 |           | p |        |   |                                                |
 |           | . |        |   |                                                |
-+-----------+---+--------+---+------------------------------------------------+
+| --------- | - | ------ | - | ---------------------------------------------- |
 
 ### © IBM Corporation 2022. All rights reserved. 
 
-# Module Introduction and Learning Objectives
+<h3>Module Introduction and Learning Objectives</h3>
 
-# **Module Introduction:**
+<h3>**Module Introduction:**</h3>
 
 In the final project, you will create a React Budget Allocation app. You
 will learn how to break down a UI into React components and become
@@ -5427,7 +5417,7 @@ familiar with state using the Context API. Furthermore, you will explore
 actions, reducers, and the dispatch function. Finally, you will create a
 code file, save it, and edit it to make changes.  
 
-## **Learning Objectives:**
+<h3>**Learning Objectives:**</h3>
 
 -   Set up a React Project
 
@@ -5439,7 +5429,7 @@ code file, save it, and edit it to make changes.  
 
 -   View your app on the browser
 
-# Practice Assignment - Hands-on Lab: Budget Allocation Application
+<h3>Practice Assignment - Hands-on Lab: Budget Allocation Application</h3>
 
 Level 2 headings may be created by course providers in the future.
 
@@ -5453,14 +5443,14 @@ Note: In case you are unable to access the Start Lab button,
 instructions to complete this lab are also
 available[ here ](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0210EN-SkillsNetwork/labs/Final%20project-budget%20app/Practice_Project.md.html).
 
-## Hands-on Lab: Budget Allocation Application (External resource) 
+<h3>Hands-on Lab: Budget Allocation Application (External resource)</h3>
 
 Clicking on the Start Lab button below will launch the cloud based SN
 labs virtual labs environment with instructions to complete this lab.
 Your username and email will be shared with SN Labs to authenticate and
 provision your lab environment.
 
-# Optional: Sample Project: (The Shopping Application)
+<h3>Optional: Sample Project: (The Shopping Application)</h3>
 
 Note: Though this lab is split into multiple parts, it is highly
 recommended it is all completed in one sitting as the project
@@ -5472,20 +5462,18 @@ Note: In case you are unable to access the Start Lab button,
 instructions to complete this lab are also
 available[ here](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0210EN-SkillsNetwork/labs/Final%20project-budget%20app/Optional-Shopping-App.md.html).
 
-## Optional: Sample Project: (The Shopping Application) (External resource) 
+<h3>Optional: Sample Project: (The Shopping Application) (External resource)</h3>
 
 Clicking on the Start Lab button below will launch the cloud-based SN
 labs virtual labs environment with instructions to complete this lab.
 Your username and email will be shared with SN Labs to authenticate and
 provision your lab environment.
 
-# Final Project : Scenario and Review Criteria
+<h3>Final Project: Scenario and Review Criteria</h3>
 
-# Final Project: Scenario and Review Criteria
+<h3>Estimated time needed: 15 mins</h3>
 
-## Estimated time needed: 15 mins
-
-## Final project: Scenario
+<h3>Final project: Scenario</h3>
 
 You have just joined RKL Insurance company\'s IT department as a
 front-end engineer. The company wants you to create an application front
@@ -5507,7 +5495,7 @@ application page should look like the image below:
 ![https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0210EN-SkillsNetwork/labs/Final%20project-budget%20app/images/finalbudget.png](./images/image101.png){width="6.885416666666667in"
 height="3.3645833333333335in"}
 
-## Review Criteria:
+<h3>Review Criteria:</h3>
 
 **1:** Budget allocation validation. **(2 pts)**
 
@@ -5615,12 +5603,12 @@ labs virtual labs environment with instructions to complete this lab.
 Your username and email will be shared with SN Labs to authenticate and
 provision your lab environment.
 
-# Module 4 Summary
+<h2>Module 4 Summary</h2>
 
 Congratulations! You have completed this module. In the final project,
 you learned to create a budget allocation application using React.js.
 
-# Reading: Congrats & Next Steps
+<h3>Reading: Congrats & Next Steps</h3>
 
 Congratulations on completing this course. We hope you enjoyed it.
 
