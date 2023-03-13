@@ -313,8 +313,15 @@ It uses a virtual document object model (DOM).
 The HTML is considered as an entire object.
 
 As it is very lightweight, it renders fast.
-
-![](./images/image006.png){width="4.989583333333333in" height="2.90625in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 06. vue (08) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image006.png?raw=true"
+  alt="Vue."
+  width="50%" />
+</p>
+<!-- ![](./images/image006.png){width="4.989583333333333in" height="2.90625in"} -->
 
 Here, you see a simple Vue page which is rendered as HTML.
 
@@ -326,6 +333,14 @@ React is a framework for building client-side dynamic web applications.
 React uses dynamic data binding and a virtual DOM to extend HTML syntax
 and to eliminate the need for code that keeps the user interface (UI)
 elements synchronized with the application state.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 07. html dom (09) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image007.png?raw=true"
+  alt="HTML DOM."
+  width="100%" />
+</p>
 
 ![](./images/image007.png){width="8.0in" height="4.651890857392826in"}
 
