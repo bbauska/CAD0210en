@@ -65,14 +65,13 @@ peer group through discussion forums. 
 React is one of the most popular frameworks in the Web and Front-end
 application Development category.  
 
-In this course, you will   
+In this course, you will;
 
--   build rich Front-End applications with React and ES6  
+-   build rich Front-End applications with React and ES6.
 
--   connect React components using data and state  
+-   connect React components using data and state.
 
--   write rich React components with advanced features like Hooks and
-    Redux  
+-   write rich React components with advanced features like Hooks and Redux.
 
 In addition, you will explore how to access the React web framework user
 interface (UI) library and run rich React applications. You will find
@@ -633,7 +632,7 @@ Below you can see how it is written in ES6.
 
 ![](./images/image019.png){width="5.0in" height="3.2125in"}
 
-A function can also be declared with **let** and **const** just like a
+A function can also be declared with <b>let</b> and <b>const</b> just like a
 variable.
 
 This function doesn\'t take any parameters and has only one statement.
@@ -681,8 +680,8 @@ The function brackets are not mandatory.
 
 There is also only one line of code.
 
-But because the code **returns a value**, it **must be in curly
-brackets**.
+But because the code <b>returns a value</b>, it <b>must be in curly
+brackets</b>.
 
 This #2 is a function that takes two parameters.
 
@@ -1217,13 +1216,13 @@ following tasks:
 2.  In the terminal, paste and run the following command to go to the
     home/project directory.
 
--   **cd /home/project**
+-   <b>cd /home/project</b>
 
 3.  Run the following command to create a react application named
-    **myfirstapp**. It is mandated that the React application name
+    <b>myfirstapp</b>. It is mandated that the React application name
     cannot contain any uppercase letter.
 
--   **npx create-react-app myfirstapp**
+-   <b>npx create-react-app myfirstapp</b>
 
 4.  It requires you to confirm that the packages required can be
     installed. Confirm to get started with the installation.
@@ -1232,13 +1231,13 @@ following tasks:
     folder with the name specified by you for the application. Change to
     that folder by running the following command.
 
--   **cd myfirstapp**
+-   <b>cd myfirstapp</b>
 
 6.  create-react-app creates the boiler plate code which is required for
     you to run a basic React app. To check the react app that has been
     created, run the following command.
 
--   **npm start**
+-   <b>npm start</b>
 
 This will start the react development server on port 3000.
 
@@ -1261,7 +1260,7 @@ Press Ctlr+C at the command prompt to stop the react development server.
 # Modify for Hello World App
 
 1.  Within the src folder of the myfirstapp project folder, you will
-    find **App.js** and **index.js**.
+    find <b>App.js</b> and <b>index.js</b>.
 
 ![](./images/image063.jpeg){width="2.0in"
 height="3.9833333333333334in"}
@@ -1572,7 +1571,7 @@ height="1.0833333333333333in"}
 ### Module 1 : Glossary - Building a Rich Front-End Application using REACT & ES6
 
   -----------------------------------------------------------------------
-  **Term**                            **Definition**
+  <b>Term</b>                            <b>Definition</b>
   ----------------------------------- -----------------------------------
   Angular                             Angular is a platform for building
                                       mobile and desktop web
@@ -1760,14 +1759,14 @@ height="1.0833333333333333in"}
 
 # Cheatsheet - Building a Rich Front-End Application using REACT & ES6
 
-**Building Rich Front-End Applications with React and ES6**\
-**Module 1 Building Rich Front-End Applications with React and ES6**
+<b>Building Rich Front-End Applications with React and ES6</b>
+<b>Module 1 Building Rich Front-End Applications with React and ES6</b>
 
-| **P             | **Description**           | **Code Example**       |
-| ackage/Method** |                           |                        |
+| <b>P             | <b>Description</b>           | <b>Code Example</b>       |
+| ackage/Method</b> |                           |                        |
 | --------------- | ------------------------- | ---------------------- |
-| **let and       | let allows you to         | 1.  {                  |
-| const**         | restrict the scope of     |                        |
+| <b>let and       | let allows you to         | 1.  {                  |
+| const</b>         | restrict the scope of     |                        |
 |                 | variables within the      | 2.  let a = 10         |
 |                 | block where they are      |                        |
 |                 | declared. const allows    | 3.  console.log(a)     |
@@ -1788,9 +1787,9 @@ height="1.0833333333333333in"}
 |                 |                           |                        |
 |                 |                           | 11. console.log(num)   |
 
-| **Arrow  | Arrow functions allow you to      | 1.  hello = () =\>   |
+| <b>Arrow  | Arrow functions allow you to      | 1.  hello = () =\>   |
 | fu       | write shorter function syntax.    |                      |
-| nction** |                                   | 2.  {                |
+| nction</b> |                                   | 2.  {                |
 |          |                                   |                      |
 |          |                                   | 3.  return \"Hello   |
 |          |                                   |     World!\";        |
@@ -1798,8 +1797,8 @@ height="1.0833333333333333in"}
 |          |                                   | 4.  }                |
 | -------- | --------------------------------- | -------------------- |
 
-| **Pro   | The      | 1.  let promiseArgument = (resolve, reject)    |
-| mises** | Promise  |     =\>                                        |
+| <b>Pro   | The      | 1.  let promiseArgument = (resolve, reject)    |
+| mises</b> | Promise  |     =\>                                        |
 |         | object   |                                                |
 |         | re       | 2.  setTimeout (() =\> {                       |
 |         | presents |                                                |
@@ -1824,8 +1823,8 @@ height="1.0833333333333333in"}
 |         |          |                                                |
 |         |          | 12.                                            |
 | ------- | -------- | ---------------------------------------------- |
-| **      | Class is | 1.  function car(name,year)                    |
-| class** | a        |                                                |
+| <b>      | Class is | 1.  function car(name,year)                    |
+| class</b> | a        |                                                |
 |         | template | 2.  {                                          |
 |         | or       |                                                |
 |         | b        | 3.  this.name = name                           |
@@ -1846,7 +1845,7 @@ height="1.0833333333333333in"}
 | ------- | -------- | ---------------------------------------------- |
 | *       | A class  | 1.  class Square extends Rectangle             |
 | *Inheri | created  |                                                |
-| tance** | with a   | 2.  {                                          |
+| tance</b> | with a   | 2.  {                                          |
 |         | class    |                                                |
 |         | inhe     | 3.  constructor(height,width)                  |
 |         | ritance, |                                                |
@@ -1874,9 +1873,9 @@ height="1.0833333333333333in"}
 |         |          |                                                |
 |         |          | 15. Let mySquare = new Square(5,5)             |
 | ------- | -------- | ---------------------------------------------- |
-| **React | Co       | 1.  importReact from \'react\';                |
+| <b>React | Co       | 1.  importReact from \'react\';                |
 | compo   | mponents |                                                |
-| nents** | are      | 2.  import {Text} from \'react-native';        |
+| nents</b> | are      | 2.  import {Text} from \'react-native';        |
 |         | reusable |                                                |
 |         | segments | 3.  constHelloworld= ()=\>                     |
 |         | of code  |                                                |
@@ -1892,10 +1891,10 @@ height="1.0833333333333333in"}
 |         | omponent |                                                |
 |         | types.   |                                                |
 | ------- | -------- | ---------------------------------------------- |
-| **React | React    | 1.  import React from \"react\";               |
+| <b>React | React    | 1.  import React from \"react\";               |
 | class   | class    |                                                |
 | Comp    | c        | 2.  class App extends React.Component {        |
-| onent** | omponent |                                                |
+| onent</b> | omponent |                                                |
 |         | c        | 3.  constructor(props) {                       |
 |         | ontains- |                                                |
 |         | Props:   | 4.  super(props);                              |
@@ -1914,15 +1913,15 @@ height="1.0833333333333333in"}
 |         |          |     Here!\</button\>                           |
 |         |          |                                                |
 |         |          | 1                                              |
-|         |          | 0. {this.state.change?(**Hello!!**):(**Welcome |
-|         |          |     to the React Course**)}                    |
+|         |          | 0. {this.state.change?(<b>Hello!!</b>):(<b>Welcome |
+|         |          |     to the React Course</b>)}                    |
 |         |          |                                                |
 |         |          | > );}}                                         |
 |         |          |                                                |
 |         |          | 11. export default App;                        |
 | ------- | -------- | ---------------------------------------------- |
-| **on    | When an  | 1.  function changeColor() {                   |
-| Click** | event    |                                                |
+| <b>on    | When an  | 1.  function changeColor() {                   |
+| Click</b> | event    |                                                |
 |         | fires,   | 2.  const shoot = () =\> {                     |
 |         | event    |                                                |
 |         | handlers | 3.  alert(\"Color Changed!\");                 |
@@ -2854,7 +2853,7 @@ course, you know:
 <h2 id="ch2">Module 2 : Glossary - React Components</h2>
 
   ----------------------------------------------------------------------------------
-  **Term**                                       **Definition**
+  <b>Term</b>                                       <b>Definition</b>
   ---------------- -------- -------- -------- -- -----------------------------------
                                                  
 
@@ -2990,14 +2989,14 @@ course, you know:
 ![https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0210EN-SkillsNetwork/CheatSheets/images/IDSNlogo.png](./images/image091.png){width="3.125in"
 height="1.0833333333333333in"}
 
-**React components**\
+<b>React components</b>
 <h2><b>Module 2 React components</b></h2>
 
 | ----- | - | ---------------------------- | - | ---------------------------- |
-| **P   |   | **Description**              | * |                              |
+| <b>P   |   | <b>Description</b>              | * |                              |
 | ackag |   |                              | * |                              |
 | e/Met |   |                              | C |                              |
-| hod** |   |                              | o |                              |
+| hod</b> |   |                              | o |                              |
 |       |   |                              | d |                              |
 |       |   |                              | e |                              |
 |       |   |                              | E |                              |
@@ -3010,10 +3009,10 @@ height="1.0833333333333333in"}
 |       |   |                              | * |                              |
 |       |   |                              | * |                              |
 | ----- | - | ---------------------------- | - | ---------------------------- |
-| **    |   | The state object is where    | 1 |                              |
+| <b>    |   | The state object is where    | 1 |                              |
 | React |   | you keep the component\'s    | . |                              |
 | st    |   | property values.             |   |                              |
-| ate** |   |                              |   |                              |
+| ate</b> |   |                              |   |                              |
 |       |   |                              | c |                              |
 |       |   |                              | l |                              |
 |       |   |                              | a |                              |
@@ -3236,8 +3235,8 @@ height="1.0833333333333333in"}
 |       |   |                              | } |                              |
 |       |   |                              | } |                              |
 | ----- | - | ---------------------------- | - | ---------------------------- |
-| **Pr  | P |                              |   | 1.  class                    |
-| ops** | r |                              |   |     TestComp                 |
+| <b>Pr  | P |                              |   | 1.  class                    |
+| ops</b> | r |                              |   |     TestComp                 |
 |       | o |                              |   | onentextendsReact.component{ |
 |       | p |                              |   |                              |
 |       | s |                              |   | 2.  render() {               |
@@ -3306,9 +3305,9 @@ height="1.0833333333333333in"}
 |       | s |                              |   |                              |
 |       | . |                              |   |                              |
 | ----- | - | ---------------------------- | - | ---------------------------- |
-| **    | W |                              |   | 1.  class Header extends     |
+| <b>    | W |                              |   | 1.  class Header extends     |
 | mount | h |                              |   |     React.Component {        |
-| ing** | e |                              |   |                              |
+| ing</b> | e |                              |   |                              |
 |       | n |                              |   | 2.  constructor(props) {     |
 |       | a |                              |   |                              |
 |       | c |                              |   | 3.  super(props);            |
@@ -3469,9 +3468,9 @@ height="1.0833333333333333in"}
 |       | ) |                              |   |                              |
 |       | . |                              |   |                              |
 | ----- | - | ---------------------------- | - | ---------------------------- |
-| **    | W |                              |   | 1.  class App extends        |
+| <b>    | W |                              |   | 1.  class App extends        |
 | updat | h |                              |   |     React.Component{         |
-| ing** | e |                              |   |                              |
+| ing</b> | e |                              |   |                              |
 |       | n |                              |   | 2.  state = {counter:        |
 |       | a |                              |   |     \"0\"};                  |
 |       | c |                              |   |                              |
@@ -3636,9 +3635,9 @@ height="1.0833333333333333in"}
 |       | ( |                              |   |                              |
 |       | ) |                              |   |                              |
 | ----- | - | ---------------------------- | - | ---------------------------- |
-| **Un  | W |                              |   | 1.  import React from        |
+| <b>Un  | W |                              |   | 1.  import React from        |
 | mount | h |                              |   |     \'react\';               |
-| ing** | e |                              |   |                              |
+| ing</b> | e |                              |   |                              |
 |       | n |                              |   | 2.  class ComponentOne       |
 |       | a |                              |   |     extends React.Component  |
 |       | c |                              |   |     {                        |
@@ -3741,7 +3740,7 @@ height="1.0833333333333333in"}
 ## Changelog
 
   ---------------------------------------------------------------------------
-  **Date**       **Version**   **Changed by**       **Change Description**
+  <b>Date</b>       <b>Version</b>   <b>Changed by</b>       <b>Change Description</b>
   -------------- ------------- -------------------- -------------------------
   20-10-2022     1.1           Sapthashree K S      Cheatsheet updated
 
@@ -3751,7 +3750,7 @@ height="1.0833333333333333in"}
 
 <h3>Module Introduction and Learning Objectives</h3>
 
-### **Module Introduction**
+### <b>Module Introduction</b>
 
 Having problems with massive unmanageable applications? Learn about new
 features like Hooks and Redux to write complicated components. You will
@@ -4768,7 +4767,7 @@ In this section, you learned that:
 
 In this lab, you will be building an increment counter using Redux.
 
-**Objective:**
+<b>Objective:</b>
 
 After completing this lab, you will be able to use state management to
 increment the counter using Redux. Redux library has all that it
@@ -4832,7 +4831,7 @@ height="1.0833333333333333in"}
 <h2>Module 3: Glossary - Advanced React</h2>
 
   -----------------------------------------------------------------------
-  **Term**                            **Definition**
+  <b>Term</b>                            <b>Definition</b>
   ----------------------------------- -----------------------------------
   Actions                             JSON objects that contain
                                       information about changes that need
@@ -4945,13 +4944,13 @@ height="1.0833333333333333in"}
 ![https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0210EN-SkillsNetwork/CheatSheets/images/IDSNlogo.png](./images/image091.png){width="3.125in"
 height="1.0833333333333333in"}
 
-**Advanced React**\
-**Module 3 Advanced React**
+<b>Advanced React</b>
+<b>Module 3 Advanced React</b>
 
 | --------- | - | ------ | - | ---------------------------------------------- |
-| **Package |   | **D    | * |                                                |
-| /Method** |   | escrip | * |                                                |
-|           |   | tion** | C |                                                |
+| <b>Package |   | <b>D    | * |                                                |
+| /Method</b> |   | escrip | * |                                                |
+|           |   | tion</b> | C |                                                |
 |           |   |        | o |                                                |
 |           |   |        | d |                                                |
 |           |   |        | e |                                                |
@@ -4965,7 +4964,7 @@ height="1.0833333333333333in"}
 |           |   |        | * |                                                |
 |           |   |        | * |                                                |
 | --------- | - | ------ | - | ---------------------------------------------- |
-| **Hooks** |   | Fun    | 1 |                                                |
+| <b>Hooks</b> |   | Fun    | 1 |                                                |
 |           |   | ctions | . |                                                |
 |           |   | called |   |                                                |
 |           |   | hooks  |   |                                                |
@@ -5229,8 +5228,8 @@ height="1.0833333333333333in"}
 |           |   |        | p |                                                |
 |           |   |        | ; |                                                |
 | --------- | - | ------ | - | ---------------------------------------------- |
-| **React   | R |        |   | 1.  import React, {Component} from \"react\";  |
-| Forms**   | e |        |   |                                                |
+| <b>React   | R |        |   | 1.  import React, {Component} from \"react\";  |
+| Forms</b>   | e |        |   |                                                |
 |           | a |        |   | 2.  export default functionApp() {             |
 |           | c |        |   |                                                |
 |           | t |        |   | 3.  const \[email, setEmail\] =                |
@@ -5288,7 +5287,7 @@ height="1.0833333333333333in"}
 |           | e |        |   |                                                |
 |           | . |        |   |                                                |
 | --------- | - | ------ | - | ---------------------------------------------- |
-| **Redux** | R |        |   | 1.  \$ npm install redux react-redux \--save   |
+| <b>Redux</b> | R |        |   | 1.  \$ npm install redux react-redux \--save   |
 |           | e |        |   |                                                |
 |           | d |        |   |                                                |
 |           | u |        |   |                                                |
@@ -5482,7 +5481,7 @@ height="1.0833333333333333in"}
 
 <h3>Module Introduction and Learning Objectives</h3>
 
-<h3>**Module Introduction:**</h3>
+<h3><b>Module Introduction:</b></h3>
 
 In the final project, you will create a React Budget Allocation app. You
 will learn how to break down a UI into React components and become
@@ -5490,7 +5489,7 @@ familiar with state using the Context API. Furthermore, you will explore
 actions, reducers, and the dispatch function. Finally, you will create a
 code file, save it, and edit it to make changes.  
 
-<h3>**Learning Objectives:**</h3>
+<h3><b>Learning Objectives:</b></h3>
 
 -   Set up a React Project
 
@@ -5570,84 +5569,106 @@ height="3.3645833333333335in"}
 
 <h3>Review Criteria:</h3>
 
-**1:** Budget allocation validation. **(2 pts)**
+<b>1:</b> Budget allocation validation. <b>(2 pts)</b>
 
 Provide a screenshot of the budget allocation validation. It should show
 that the application:
 
--   Accepts only numbers in the allocation field. **(1 pts)**
+-   Accepts only numbers in the allocation field. <b>(1 pts)</b>
 
--   The number does not exceed remaining budget. **(1 pts)**
+-   The number does not exceed remaining budget. <b>(1 pts)</b>
 
-**2:** Editable budget value **(3 pts)**
+<b>2:</b> Editable budget value <b>(3 pts)</b>
 
 Provide a screenshot of the budget value. It should show that the
 application:
 
 -   Has editable budget field with increasing and decreasing value
-    by 10. **(1 pts)**
+    by 10. <b>(1 pts)</b>
 
--   Does not allow amount lower than amount spent so far. **(1 pts)**
+-   Does not allow amount lower than amount spent so far. <b>(1 pts)</b>
 
--   The upper limit is set to 20,000. **(1 pts)**
+-   The upper limit is set to 20,000. <b>(1 pts)</b>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 102. form label currency (127) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image102.png?raw=true"
+  alt="Form label field currency."
+  width="67%" />
+</p>
+<!-- ![https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0210EN-SkillsNetwork/labs/Final%20project-budget%20app/images/task_1.PNG](./images/image102.png){width="6.635416666666667in" height="0.8020833333333334in"} -->
 
-![https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0210EN-SkillsNetwork/labs/Final%20project-budget%20app/images/task_1.PNG](./images/image102.png){width="6.635416666666667in"
-height="0.8020833333333334in"}
-
-**3:** Dropdown to change currency **(4 pts)**
+<b>3:</b> Dropdown to change currency <b>(4 pts)</b>
 
 Provide a screenshot of the dropdown list for Currency component. It
 should show that the application:
 
--   Has a **Currency** label in the appropriate place. **(1 pts)**
+-   Has a <b>Currency</b> label in the appropriate place. <b>(1 pts)</b>
 
--   Has an editable currency dropdown list. **(1 pts)**
+-   Has an editable currency dropdown list. <b>(1 pts)</b>
 
 -   Has four values \$ Dollar,£ Pound,€ Euro,₹ Rupee in the dropdown
-    list, in the specified format. **(1 pts)**
+    list, in the specified format. <b>(1 pts)</b>
 
--   Has stylized dropdown list (Use image provided for reference). **(1
-    pts)**
+-   Has stylized dropdown list (Use image provided for reference). <b>(1
+    pts)</b>
 
-![https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0210EN-SkillsNetwork/labs/Final%20project-budget%20app/images/task_2.png](./images/image103.png){width="3.1979166666666665in"
-height="2.8333333333333335in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 103. currency: dollar, pound, euro and ruppee (128) ~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image103.png?raw=true"
+  alt="Currency: dollar, pound, euro, and ruppee."
+  width="32%" />
+</p>
 
-**4:** Add a currency prefix to the **Change allocation** textbox **(1
-pts)**
+<!-- ![https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0210EN-SkillsNetwork/labs/Final%20project-budget%20app/images/task_2.png](./images/image103.png){width="3.1979166666666665in" height="2.8333333333333335in"} -->
 
-**5:** Add a currency prefix to the **budget value** textbox **(1 pts)**
+<b>4:</b> Add a currency prefix to the <b>Change allocation</b> textbox <b>(1
+pts)</b>
 
-**6:** Change event of the currency dropdown list **(5 pts)**
+<b>5:</b> Add a currency prefix to the <b>budget value</b> textbox <b>(1 pts)</b>
+
+<b>6:</b> Change event of the currency dropdown list <b>(5 pts)</b>
 
 Provide a screenshot after the dropdown for Currency component change
 event. It should show that for the event, on change of the dropdown
 value, all the currency representation on the screen changes.
 
--   Budget . **(1 pts)**
+-   Budget . <b>(1 pts)</b>
 
--   Remaining. **(1 pts)**
+-   Remaining. <b>(1 pts)</b>
 
--   Spent so far. **(1 pts)**
+-   Spent so far. <b>(1 pts)</b>
 
--   Allocated Budget. **(1 pts)**
+-   Allocated Budget. <b>(1 pts)</b>
 
--   Change Allocation. **(1 pts)**
+-   Change Allocation. <b>(1 pts)</b>
 
-![https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0210EN-SkillsNetwork/labs/Final%20project-budget%20app/images/task_3.PNG](./images/image104.png){width="6.677083333333333in"
-height="3.1354166666666665in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 104. company's budget allocation (129) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image104.png?raw=true"
+  alt="Company's budget allocation."
+  width="67%" />
+</p>
+<!-- <a href="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0210EN-SkillsNetwork/labs/Final%20project-budget%20app/images/task_3.PNG"> -->
+<!-- ./images/image104.png) {width="6.677083333333333in" height="3.1354166666666665in"} -->
 
-**7:** Decrease and Increase Buttons **(4 pts)**
+<b>7:</b> Decrease and Increase Buttons <b>(4 pts)</b>
 
 Provide a screenshot that shows that,
 
 -   A decrease button is added for all departments in the allocation,
-    beside increase by 10 as shown in the screenshot. **(1 pts)**
+    beside increase by 10 as shown in the screenshot. <b>(1 pts)</b>
 
--   Onclick of the button the value decreases by 10. **(1 pts)**
+-   Onclick of the button the value decreases by 10. <b>(1 pts)</b>
 
--   The + button is stylized with the image provided. **(1 pts)**
+-   The + button is stylized with the image provided. <b>(1 pts)</b>
 
--   The - button is stylized with the image provided. **(1 pts)**
+-   The - button is stylized with the image provided. <b>(1 pts)</b>
 
 ### © IBM Corporation 2022. All rights reserved.
 
@@ -5686,33 +5707,28 @@ you learned to create a budget allocation application using React.js.
 Congratulations on completing this course. We hope you enjoyed it.
 
 Back-end professionals are expected to have skills with multiple tools
-and programming languages. As a next step, you can take [ Introduction
-to Web Development with HTML, CSS,
-JavaScript](https://www.edx.org/course/introduction-to-cloud-development-with-html5-css3-and-javascript).
+and programming languages. As a next step, you can take <a href="https://www.edx.org/course/introduction-to-cloud-development-with-html5-css3-and-javascript"> Introduction to Web Development with HTML, CSS, JavaScript.</a>
 
-If you would like to learn about relational databases, you may consider
-the following course [Relational Database
-Basics](https://www.edx.org/course/relational-database-basics).
+If you would like to learn about relational databases, you may consider the following course <a href="https://www.edx.org/course/relational-database-basics">Relational Database Basics</a>.
 
-Other recommended courses are: [Git and GitHub
-Basics](https://www.edx.org/course/introduction-to-git-and-github),
-[Agile and Scrum
-Fundamentals](https://www.edx.org/course/agile-and-scrum-fundamentals),
-and [DevOps Basics for
-Everyone](https://www.edx.org/course/devops-basics-for-everyone)[ ](https://www.coursera.org/learn/delivering-quality-work-with-agility?specialization=people-and-soft-skills-for-professional-success).
+Other recommended courses are: <a href="https://www.edx.org/course/introduction-to-git-and-github">Git and GitHub Basics</a>,
+<a href="https://www.edx.org/course/agile-and-scrum-fundamentals">Agile and Scrum Fundamentals</a>, and <a href="https://www.edx.org/course/devops-basics-for-everyone">DevOps Basics for Everyone</a> and <a href="https://www.coursera.org/learn/delivering-quality-work-with-agility?specialization=people-and-soft-skills-for-professional-success">Delivering Quality Work with Agility</a>.
 
 If you would like to explore full-stack development further, you may
-wish to consider the next course [ Introduction to Containers,
-Kubernetes and
-OpenShift ](https://www.edx.org/course/introduction-to-containers-kubernetes-and-openshift).
+wish to consider the next course, <a href="https://www.edx.org/course/introduction-to-containers-kubernetes-and-openshift">Introduction to Containers, Kubernetes and OpenShift.</a>
 
-Coming soon! IBM will soon offer a professional certificate program
-specifically for back-end developers.
+Coming soon! IBM will soon offer a professional certificate program specifically for back-end developers.
 
-We encourage you to leave your feedback and rate this course so that we
-can continue to improve the course content.
+We encourage you to leave your feedback and rate this course so that we can continue to improve the course content.
 
 <h6>Last Updated 3-12-2023 7:41pm</h6>
-
-... the end
-
+<br>
+<h6>... the end</h6>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ##.  (^^) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image###.png?raw=true"
+  alt="~."
+  width="25%" />
+</p>
