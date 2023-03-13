@@ -209,7 +209,7 @@ HTML, CSS, and JavaScript course before starting this course.
 -   Employ and work with various React concepts and features including
     props, states, hooks, forms, and Redux.
 
-<h2 id="ch1-1">1.1.Module Introduction</h2>
+<h2 id="ch1-1">1.1. Module Introduction</h2>
 
 As you become more proficient with JavaScript, you will find that it is
 a very dynamic language and looks different from the typical
@@ -541,7 +541,7 @@ In this section, you learned that:
 
 -   With Create React App, you can easily create a React application.
 
-<h2 id="ch1-3">1.3.Insiders Viewpoints: Front-end Frameworks (3:09)</h2>
+<h2 id="ch1-3">1.3. Insiders Viewpoints: Front-end Frameworks (3:09)</h2>
 
 Welcome to Expert Viewpoints: Using Front-end JavaScript Frameworks.
 
