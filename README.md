@@ -1597,8 +1597,15 @@ The state is updated, and the component is rendered again.
 ![](./images/image089.png){width="4.0in" height="2.25in"}
 
 Every time the state changes, the component rerenders.
-
-![](./images/image090.png){width="4.0in" height="2.25in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 90. class component states (64) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image090.png?raw=true"
+  alt="Class component states."
+  width="40%" />
+</p>
+<!-- ![](./images/image090.png){width="4.0in" height="2.25in"} -->
 
 You can see the counter increase by 1 for every click and one again and
 another one.
@@ -1615,10 +1622,17 @@ In this section you learned that:
 
 .
 
-# Glossary - Building a Rich Front-End Application using REACT & ES6
+## Glossary - Building a Rich Front-End Application using REACT & ES6
 
-![https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0210EN-SkillsNetwork/Glossary/images/IDSN-new-logo\_\_1\_.png](./images/image091.png){width="3.125in"
-height="1.0833333333333333in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 91. skills network (65) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image091.png?raw=true"
+  alt="Skills network."
+  width="31%" />
+</p>
+<!-- ![https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0210EN-SkillsNetwork/Glossary/images/IDSN-new-logo\_\_1\_.png](./images/image091.png){width="3.125in" height="1.0833333333333333in"} -->
 
 ## Developing Cloud Applications with React
 
@@ -1807,11 +1821,17 @@ height="1.0833333333333333in"}
   -----------------------------------------------------------------------
 
 ### © IBM Corporation 2022. All rights reserved.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 91. skills network (67) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image091.png?raw=true"
+  alt="Skills network."
+  width="31%" />
+</p>
+<!-- ![https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0210EN-SkillsNetwork/CheatSheets/images/IDSNlogo.png](./images/image091.png){width="3.125in" height="1.0833333333333333in"} -->
 
-![https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0210EN-SkillsNetwork/CheatSheets/images/IDSNlogo.png](./images/image091.png){width="3.125in"
-height="1.0833333333333333in"}
-
-# Cheatsheet - Building a Rich Front-End Application using REACT & ES6
+<h2 id="ch1-xx">Cheatsheet - Building a Rich Front-End Application using REACT & ES6</h2>
 
 <b>Building Rich Front-End Applications with React and ES6</b>
 <b>Module 1 Building Rich Front-End Applications with React and ES6</b>
@@ -2002,7 +2022,7 @@ height="1.0833333333333333in"}
 
 ### © IBM Corporation 2022. All rights reserved.
 
-## Module 1 Summary
+<h2 id="ch1-x">Module 1 Summary</h2>
 
 Congratulations! You have completed this module. At this point in the
 course, you know:
@@ -2026,9 +2046,9 @@ course, you know:
 
 -   Class components are more versatile.
 
-## Module 2 Introduction and Learning Objectives
+<h2 id="ch2">Module 2 Introduction and Learning Objectives</h2>
 
-### Module Introduction
+<h2 id="ch2-1">2.01.Module Introduction</h2>
 
 How do you think data is managed in React? Changes in the component data
 are managed using state and props in a React application. In addition,
@@ -2059,7 +2079,7 @@ You will;
 
 -   Describe the different approaches and tools of component testing.
 
-## Introduction to States (6:14)
+<h2 id="ch2-2">2.02.Introduction to States (6:14)</h2>
 
 Welcome to Introduction to States.
 
@@ -2070,9 +2090,15 @@ After reading 'States', you will be able to:
 -   Explain what are props in React, and
 
 -   Compare and contrast state and props in a component.
-
-![](./images/image092.png){width="5.0in"
-height="2.8229166666666665in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 92. what is state? (72) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image092.png?raw=true"
+  alt="What is State?"
+  width="50%" />
+</p>
+<!-- ![](./images/image092.png){width="5.0in" height="2.8229166666666665in"} -->
 
 States allow you to change data in an application.
 
@@ -2085,9 +2111,15 @@ You can store property values that belong to the component in the state
 object.
 
 When the state object changes, the component re-renders.
-
-![](./images/image093.png){width="6.489583333333333in"
-height="3.6666666666666665in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 93. types of react state (72) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image093.png?raw=true"
+  alt="Types of React State."
+  width="65%" />
+</p>
+<!-- ![](./images/image093.png){width="6.489583333333333in" height="3.6666666666666665in"} -->
 
 There are two different types of states in a React application --- a
 shared state and a local state.
@@ -2099,9 +2131,15 @@ application.
 
 Local state lives in a single component and is not used in other
 components. An example of local state is hiding and showing information.
-
-![](./images/image094.png){width="6.489583333333333in"
-height="3.6666666666666665in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 94. states in react components (74) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image094.png?raw=true"
+  alt="States in React components."
+  width="65%" />
+</p>
+<!-- ![](./images/image094.png){width="6.489583333333333in" height="3.6666666666666665in"} -->
 
 State is a plain JavaScript object used by React to represent
 information about the component's current situation.
@@ -2111,9 +2149,15 @@ The heart of every React component is its "state."
 State determines how a component renders and behaves.
 
 A state allows you to create dynamic and interactive components.
-
-![](./images/image095.png){width="5.0in"
-height="2.8229166666666665in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 95. state in react components, cont'd (74) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image095.png?raw=true"
+  alt="State in React components, cont'd."
+  width="50%" />
+</p>
+<!-- ![](./images/image095.png){width="5.0in" height="2.8229166666666665in"} -->
 
 The state is an instance of the React Component Class that can be
 defined as an object with a set of observable properties.
@@ -2124,9 +2168,15 @@ The state is managed and preserved in the React component.
 
 In other words, the state of a component is an object that holds some
 information that may change over the lifetime of the component.
-
-![](./images/image096.png){width="5.0in"
-height="2.8229166666666665in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 96. need of state (74) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image096.png?raw=true"
+  alt="Need of state."
+  width="50%" />
+</p>
+<!-- ![](./images/image096.png){width="5.0in" height="2.8229166666666665in"} -->
 
 State is required if a React component will change or needs to change
 during user interaction.
@@ -2134,9 +2184,15 @@ during user interaction.
 You can track the change in the component by using a state.
 
 This includes but is not limited to forms, buttons, and timers.
-
-![](./images/image097.png){width="6.489583333333333in"
-height="3.6666666666666665in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 97. state example (75) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image097.png?raw=true"
+  alt="State example."
+  width="65%" />
+</p>
+<!-- ![](./images/image097.png){width="6.489583333333333in" height="3.6666666666666665in"} -->
 
 For example, consider a simple application with a button and a counter.
 When the user clicks the button, the counter is incremented by 1.
@@ -2160,9 +2216,15 @@ React's data flow between components is uni-directional from parent to
 child only.
 
 Props are read-only components.
-
-![](./images/image098.png){width="6.489583333333333in"
-height="3.6666666666666665in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 98. what are props in react? (76) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image098.png?raw=true"
+  alt="What are Props in React?"
+  width="65%" />
+</p>
+<!-- ![](./images/image098.png){width="6.489583333333333in" height="3.6666666666666665in"} -->
 
 They are objects which store the value of attributes of a tag and work
 like the HTML attributes.
@@ -2172,9 +2234,15 @@ They are like function arguments that can be passed to the component.
 Props are immutable and cannot be modified from inside the component.
 
 Props should never be changed in a child component.
-
-![](./images/image099.png){width="6.489583333333333in"
-height="3.6666666666666665in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 99. props example (77) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image099.png?raw=true"
+  alt="Props example."
+  width="65%" />
+</p>
+<!-- ![](./images/image099.png){width="6.489583333333333in" height="3.6666666666666665in"} -->
 
 If a variable gets modified during a process, it should belong to the
 component state.
@@ -2197,19 +2265,25 @@ It renders props that accept the attribute name.
 
 Then, you can pass props to the Test component that accepts different
 names like John and Jill.
-
-![](./images/image100.png){width="6.489583333333333in"
-height="3.6666666666666665in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 100. difference between state and props (78) ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image100.png?raw=true"
+  alt="Compare state and props."
+  width="65%" />
+</p>
+<!-- ![](./images/image100.png){width="6.489583333333333in" height="3.6666666666666665in"} -->
 
 Let's look at the differences between state and props.
 
-A state can only be used in class components natively.
+A state can only be used in class components natively.
 
-In functional components, you must opt-in to the useState hook to
+In functional components, you must opt-in to the useState hook to
 include stateful features.
 
-Props, on the other hand, allow you to reuse the component by
-giving it the ability to receive data as input from the parent
+Props, on the other hand, allow you to reuse the component by
+giving it the ability to receive data as input from the parent
 component.
 
 State is the local state of the component that cannot be accessed or
@@ -2249,7 +2323,7 @@ React components in a uni-directional flow from parent to child.
 Components can create and manage their own data with state, whereas they
 receive data from outside with props.
 
-# Passing Data and States Between Components (6:54 )
+<h2 id="ch2-3">2.03.Passing Data and States Between Components (6:54 )</h2>
 
 Welcome to Passing Data and States between Components.
 
@@ -2434,7 +2508,7 @@ In this section you learned that:
     child using properties, from child to parent using callbacks, and
     between siblings.
 
-# Components Lifecycle (4:46)
+<h2 id="ch2-4">2.04.Components Lifecycle (4:46)</h2>
 
 Welcome to Components Lifecycle.
 
@@ -2560,7 +2634,7 @@ This is referred to as a component lifecycle.
 -   And, the unmounting phase is the third and final phase, where the
     component is removed from the DOM.
 
-## Connecting React to External Services (2:56)
+<h2 id="ch2-05">2.5.Connecting React to External Services (2:56)</h2>
 
 Welcome to Connecting React to External Services.
 
@@ -2634,7 +2708,7 @@ In this section you learned that:
 -   You can receive and send information from a React client to an
     external server with GET, POST, UPDATE, and DELETE requests.
 
-<h3 id ="ch9-9">## Testing React Components (8:51)</h3>
+<h2 id ="ch2-6">2.06.Testing React Components (8:51)</h2>
 
 Welcome to Testing React Components.
 
@@ -2843,7 +2917,7 @@ In this section, you learned that: 
     your tests by testing your components in the same way as an end user
     would use the components.
 
-## Hands-on Lab: React Todo List Application
+<h2 id="ch2-7">2.07.Hands-on Lab: React Todo List Application</h2>
 
 In this lab, you will be building TODO list application using React
 components. You will discover how to create, view, delete, complete,
@@ -2904,7 +2978,7 @@ course, you know:
 
 <h3>Developing Cloud Applications with React</h3>
 
-<h2 id="ch2">Module 2 : Glossary - React Components</h2>
+<h2 id="ch2-9">2.09.Module 2 : Glossary - React Components</h2>
 
   ----------------------------------------------------------------------------------
   <b>Term</b>                                       <b>Definition</b>
@@ -3038,7 +3112,7 @@ course, you know:
 | ### © IBM Corporation 2022. All rights reserved.                   |   |   |   |
 | ------------------------------------------------------------------ | - | - | - |
 
-<h2>Cheatsheet - React Components</h2>
+<h2 id="ch2-10">2.10.Cheatsheet - React Components</h2>
 
 ![https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0210EN-SkillsNetwork/CheatSheets/images/IDSNlogo.png](./images/image091.png){width="3.125in" height="1.0833333333333333in"}
 
