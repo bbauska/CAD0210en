@@ -341,8 +341,7 @@ elements synchronized with the application state.
   alt="HTML DOM."
   width="100%" />
 </p>
-
-![](./images/image007.png){width="8.0in" height="4.651890857392826in"}
+<!-- ![](./images/image007.png){width="8.0in" height="4.651890857392826in"} -->
 
 This image shows HTML as a DOM.
 
@@ -356,8 +355,15 @@ The document will be rendered as a page.
 
 In React, some of these elements will be rendered as a React component.
 
-![](./images/image008.png){width="4.989583333333333in"
-height="2.90625in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 08. javascript xml (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image008.png?raw=true"
+  alt="HTML DOM."
+  width="50%" />
+</p>
+<!-- ![](./images/image008.png){width="4.989583333333333in" height="2.90625in"} -->
 
 React uses a special markup language called JavaScript XML (JSX) which
 resembles HTML.
@@ -367,16 +373,22 @@ in-memory tool.
 
 JSX is embedded inside special script tags where the type attribute
 specifies the content that requires Babel.
-
-![](./images/image009.png){width="4.989583333333333in"
-height="2.90625in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 09. packages (10) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image009.png?raw=true"
+  alt="Packages."
+  width="50%" />
+</p>
+<!-- ![](./images/image009.png){width="4.989583333333333in" height="2.90625in"} -->
 
 Three important packages that you use to build React applications are;
 
 1.  React package,
 
-> The React package holds the React source for components and their
-> states and properties.
+ The React package holds the React source for components and their
+ states and properties.
 
 2.  ReactDOM package, and
 
@@ -390,8 +402,15 @@ And Babel is the module which is available in most modern browsers.
 It is used to compile and interpret the JSX.
 ```
 
-![](./images/image010.png){width="4.989583333333333in"
-height="2.90625in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 10. a simple react page (11) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image010.png?raw=true"
+  alt="A simple React page."
+  width="50%" />
+</p>
+<!-- ![](./images/image010.png){width="4.989583333333333in" height="2.90625in"} -->
 
 A normal HTML page can be changed to render a React component.
 
