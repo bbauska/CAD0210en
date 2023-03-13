@@ -1594,7 +1594,7 @@ In this section you learned that:
 
 ## Developing Cloud Applications with React
 
-### Module 1 : Glossary - Building a Rich Front-End Application using REACT & ES6
+<h2 id="ch1-9>1.9. Module 1 : Glossary - Building a Rich Front-End Application using REACT & ES6</h2>
 
   -----------------------------------------------------------------------
   <b>Term</b>                            <b>Definition</b>
@@ -1603,57 +1603,35 @@ In this section you learned that:
                                       mobile and desktop web
                                       applications.
 
-                                      
-
   App.js                              Contains App, which is the root
                                       React component that you will add
                                       into your HTML page.
 
-                                      
-
   Arrow functions                     Allow you to declare functions the
                                       same way you declare variables
-
-                                      
 
   Babel                               A special in-memory tool that
                                       compiles JSX and interprets it as
                                       JavaScript.
 
-                                      
-
   Class                               A template or blueprint for
                                       creating objects.
-
-                                      
 
   Class component                     Use JavaScript ES6 classes to
                                       create class-based components in
                                       React.
 
-                                      
-
   Component                           Core building blocks of React.
-
-                                      
 
   const                               Allows you to declare constants
                                       whose values cannot be changed.
 
-                                      
-
   CSS                                 Cascading style sheets.
-
-                                      
 
   Create React App                    Simplifies the process of creating
                                       React applications.
 
-                                      
-
   DOM                                 Document object model.
-
-                                      
 
   ES                                  ES is short for ECMAScript, which
                                       is a standards organization that
@@ -1661,121 +1639,75 @@ In this section you learned that:
                                       information and communications
                                       technology standards.
 
-                                      
-
   ES6                                 JavaScript adheres to ECMA\'s
                                       specification EcmaScript6.
 
-                                      
-
   ECMAScript                          A standard used for client-side
                                       scripting.
-
-                                      
 
   event                               Enable the component to manage
                                       document object model (DOM) actions
                                       as a result of user interaction on
                                       the system.
 
-                                      
-
   Front-end frameworks                Are used to create a dynamic client
                                       that can connect to the server.
-
-                                      
 
   Functional component                Created by writing a JavaScript
                                       function.
 
-                                      
-
   High-order component                Are used to share logic with other
                                       components
 
-                                      
-
   HTML                                Hypertext markup language.
-
-                                      
 
   index.js                            Where you will add App to the HTML.
 
-                                      
-
   JSX                                 JavaScript XML which resembles
                                       HTML.
-
-                                      
 
   let                                 Allows you to restrict the scope of
                                       variables within the block where
                                       they were declared.
 
-                                      
-
   Local scope                         Is the limited scope.
-
-                                      
 
   Promise                             Represents the eventual completion
                                       of an asynchronous operation and
                                       its return value.
 
-                                      
-
   Props                               Used to pass data from a parent
                                       component to a child component.
-
-                                      
 
   Pure component                      Do not depend on or modify the
                                       state of variables. Outside their
                                       scope
 
-                                      
-
   ReactDOM package                    This is the glue between React and
                                       the DOM.
-
-                                      
 
   React package                       Holds the React source for
                                       components and their states and
                                       properties.
 
-                                      
-
   React elements                      Used to render the component to
                                       DOM.
 
-                                      
-
   src folder                          The main folder in which you will
                                       make changes.
-
-                                      
 
   state                               An object that describes how the
                                       component will behave and render
                                       currently.
 
-                                      
-
   subclass                            The class that is inheriting one
                                       other class.
-
-                                      
 
   superclass                          The class being inherited by the
                                       subclass.
 
-                                      
-
   this                                Keyword that refers to the current
                                       object.
-
-                                      
   -----------------------------------------------------------------------
 
 ### © IBM Corporation 2022. All rights reserved.
@@ -1789,7 +1721,7 @@ In this section you learned that:
 </p>
 <!-- ![https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0210EN-SkillsNetwork/CheatSheets/images/IDSNlogo.png](./images/image091.png){width="3.125in" height="1.0833333333333333in"} -->
 
-<h2 id="ch1-xx">Cheatsheet - Building a Rich Front-End Application using REACT & ES6</h2>
+<h2 id="ch1-10">1.10. Module 1 Cheatsheet - Building a Rich Front-End Application using REACT & ES6</h2>
 
 <b>Building Rich Front-End Applications with React and ES6</b>
 <b>Module 1 Building Rich Front-End Applications with React and ES6</b>
@@ -1980,7 +1912,7 @@ In this section you learned that:
 
 ### © IBM Corporation 2022. All rights reserved.
 
-<h2 id="ch1-x">Module 1 Summary</h2>
+<h2 id="ch1-11">1.11. Module 1 Summary</h2>
 
 Congratulations! You have completed this module. At this point in the
 course, you know:
@@ -2006,7 +1938,7 @@ course, you know:
 
 <h2 id="ch2">Module 2 Introduction and Learning Objectives</h2>
 
-<h2 id="ch2-1">2.01.Module Introduction</h2>
+<h2 id="ch2-1">2.1. Module Introduction</h2>
 
 How do you think data is managed in React? Changes in the component data
 are managed using state and props in a React application. In addition,
@@ -2037,7 +1969,7 @@ You will;
 
 -   Describe the different approaches and tools of component testing.
 
-<h2 id="ch2-2">2.02.Introduction to States (6:14)</h2>
+<h2 id="ch2-2">2.2. Introduction to States (6:14)</h2>
 
 Welcome to Introduction to States.
 
@@ -2235,7 +2167,7 @@ names like John and Jill.
 
 Let's look at the differences between state and props.
 
-A state can only be used in class components natively.
+A state can only be used in class components natively.
 
 In functional components, you must opt-in to the useState hook to
 include stateful features.
@@ -2281,7 +2213,7 @@ React components in a uni-directional flow from parent to child.
 Components can create and manage their own data with state, whereas they
 receive data from outside with props.
 
-<h2 id="ch2-3">2.03.Passing Data and States Between Components (6:54 )</h2>
+<h2 id="ch2-3">2.3 Passing Data and States Between Components (6:54 )</h2>
 
 Welcome to Passing Data and States between Components.
 
@@ -2466,7 +2398,7 @@ In this section you learned that:
     child using properties, from child to parent using callbacks, and
     between siblings.
 
-<h2 id="ch2-4">2.04.Components Lifecycle (4:46)</h2>
+<h2 id="ch2-4">2.4 Components Lifecycle (4:46)</h2>
 
 Welcome to Components Lifecycle.
 
@@ -2592,7 +2524,7 @@ This is referred to as a component lifecycle.
 -   And, the unmounting phase is the third and final phase, where the
     component is removed from the DOM.
 
-<h2 id="ch2-05">2.5.Connecting React to External Services (2:56)</h2>
+<h2 id="ch2-5">2.5 Connecting React to External Services (2:56)</h2>
 
 Welcome to Connecting React to External Services.
 
@@ -2666,7 +2598,7 @@ In this section you learned that:
 -   You can receive and send information from a React client to an
     external server with GET, POST, UPDATE, and DELETE requests.
 
-<h2 id ="ch2-6">2.06.Testing React Components (8:51)</h2>
+<h2 id ="ch2-6">2.6 Testing React Components (8:51)</h2>
 
 Welcome to Testing React Components.
 
@@ -2875,7 +2807,7 @@ In this section, you learned that: 
     your tests by testing your components in the same way as an end user
     would use the components.
 
-<h2 id="ch2-7">2.07.Hands-on Lab: React Todo List Application</h2>
+<h2 id="ch2-7">2.7 Hands-on Lab: React Todo List Application</h2>
 
 In this lab, you will be building TODO list application using React
 components. You will discover how to create, view, delete, complete,
@@ -2907,7 +2839,7 @@ labs virtual labs environment with instructions to complete this lab.
 Your username and email will be shared with SN Labs to authenticate and
 provision your lab environment.
 
-## Module 2 Summary
+<h2 id="ch2-8">2.8 Module 2 Summary</h2>
 
 Congratulations! You have completed this module. At this point in the
 course, you know:
@@ -2936,7 +2868,7 @@ course, you know:
 
 <h3>Developing Cloud Applications with React</h3>
 
-<h2 id="ch2-9">2.09.Module 2 : Glossary - React Components</h2>
+<h2 id="ch2-9">2.9 Module 2 : Glossary - React Components</h2>
 
   ----------------------------------------------------------------------------------
   <b>Term</b>                                       <b>Definition</b>
@@ -3833,9 +3765,9 @@ course, you know:
 
 ### © IBM Corporation 2022. All rights reserved. 
 
-<h3>Module Introduction and Learning Objectives</h3>
+<h2 id="ch3-1">3.1 Module Introduction and Learning Objectives</h2>
 
-### <b>Module Introduction</b>
+<h3>Module 3 Introduction</h3>
 
 Having problems with massive unmanageable applications? Learn about new
 features like Hooks and Redux to write complicated components. You will
@@ -3844,7 +3776,7 @@ without using classes. Redux offers a centralized state management
 system in your application. Learn all about the Redux elements involved
 in updating of the component properties.   
 
-<h4><b>Learning Objectives</b></h4>
+<h3><b>Learning Objectives</b></h3>
 
 -   Explain the different types of Hooks
 
@@ -3858,7 +3790,7 @@ in updating of the component properties.   
 
 -   Describe data flow in Redux
 
-<h3>Hooks (5:45)</h3>
+<h2 id="ch3-2">3.2 Hooks (5:45)</h3>
 
 Welcome to Hooks.
 
@@ -4014,7 +3946,7 @@ In this section you learned that:
 -   And finally, Custom Hooks enable you to add special and unique
     functionality to your applications.
 
-<h3>Implementing Forms (7:29)</h3>
+<h2 id="ch3-3">3.3 Implementing Forms (7:29)</h2>
 
 Welcome to Implementing Forms.
 
@@ -5289,7 +5221,7 @@ Coming soon! IBM will soon offer a professional certificate program specifically
 
 We encourage you to leave your feedback and rate this course so that we can continue to improve the course content.
 
-<h6>Last Updated 3-12-2023 7:41pm</h6>
+<h6>Last Updated 3-13-2023 1:14pm</h6>
 <br>
 <h6>... the end</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
