@@ -9,7 +9,6 @@
 https://learning.edx.org/course/course-v1:IBM+CAD0210EN+3T2022/block-v1:IBM+CAD0210EN+3T2022+type@sequential+block@86a76b2ee03e41c9b4ab237824de84e3/block-v1:IBM+CAD0210EN+3T2022+type@vertical+block@1651a0e258694b6eb43c58d6a413d12c
 
 <h2>edX &amp; IBM CAD0210en Front-End Application Development with React</h2>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 01. ibm skills network logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -236,12 +235,27 @@ components and change their properties and states in a dynamic UI.  
     components
 
 <h2 id="ch1-2">1.2.Introduction to Frontend Frameworks and React (6:42)</h2>
-
-![](./images/image002.png){width="5.0in" height="2.75in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 02. intro to front-end frameworks & react (05) ~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image002.png?raw=true"
+  alt="IBM skills network logo."
+  width="50%" />
+</p>
+<!-- ![](./images/image002.png){width="5.0in" height="2.75in"} -->
 
 <h2>Welcome to Introduction to Front-End Frameworks and React</h2>
 
-![](./images/image003.png){width="5.0in" height="2.75in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 03. what you will learn (05) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image003.png?raw=true"
+  alt="What you will learn."
+  width="50%" />
+</p>
+<!-- ![](./images/image003.png){width="5.0in" height="2.75in"} -->
 
 After reading this section, you will be able to understand the different
 Front-end frameworks, define React, explain how React makes it easier to
@@ -255,7 +269,15 @@ These frameworks are made available through open-source libraries which
 can be used as a part of the hypertext markup language (HTML),
 JavaScript, and cascading style sheets (CSS) in the browser.
 
-![](./myMediaFolder/media/image004.png){width="5.0in" height="2.75in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 04. front-end frameworks (06) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image004.png?raw=true"
+  alt="Front-end Frameworks."
+  width="50%" />
+</p>
+<!-- ![](./images/image004.png){width="5.0in" height="2.75in"} -->
 
 Angular, Vue, and React are some of the most-used Front-end frameworks.
 
@@ -269,7 +291,15 @@ To make HTML dynamic, Angular uses directives.
 All the directives are available to the HTML where the library is
 included.
 
-![](./images/image005.png){width="5.0in" height="2.9123173665791775in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 05. angular open-source from google (08) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image005.png?raw=true"
+  alt="Angular open-source from Google."
+  width="50%" />
+</p>
+<!-- ![](./images/image005.png){width="5.0in" height="2.9123173665791775in"} -->
 
 Here, you see HTML using Angular with model-bind directives.
 
