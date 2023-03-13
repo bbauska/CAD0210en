@@ -104,98 +104,56 @@ HTML, CSS, and JavaScript course before starting this course.
 
 -   Computer and IT literacy. 
 
-<h3>Module 1 - Building Rich Front-End Applications with React and ES6</h3>
+## [**Module 1: Building Rich Front-End Applications with React and ES6**]
+>### 1.1 [**Module 1 Introduction & Learning Objectives**](#ch1-1)
+>### 1.2 [**Introduction to Frontend Frameworks and React JS**](#ch1-2)
+>### 1.3 [**Insiders Viewpoints: Front-end and React JS**](#ch1-3)
+>### 1.5 [**Introduction to JSX**](#ch1-5)
+>### 1.6 [**Hands-on Lab: Hello World with React**](#ch1-6)
+>### 1.7 [**Introduction to Components**](#ch1-7)
+>### 1.8 [**Working with React Components**](#ch1-8)
+>### 1.9 [**Glossary - Building a Rich Front-End Application using React and ES6**](#ch1-9)
+>### 1.10 [**Cheatsheet - Building a Rich Front-End Application using React and ES6**](#ch1-10)
+>### 1.11 [**Module 1 Summary**](#ch1-11)
 
-1.1.  #### Module Introduction & Learning Objectives
+## [**Module 2: React Components**]
+>### 2.1 [**Module 2 Introduction & Learning Objectives**](#ch2-1)
+>### 2.2 [**Introduction to States**](#ch2-2)
+>### 2.3 [**Passing Data and States Between Components**](#ch2-3)
+>### 2.4 [**Components Lifecycle**](#ch2-4)
+>### 2.5 [**Connecting React to External Services**](#ch2-5)
+>### 2.6 [**Testing React Components**](#ch2-6)
+>### 2.7 [**Hands-on Lab: React Todo List Application**](#ch2-7)
+>### 2.8 [**Reading Module 2 Summary**](#ch2-8)
+>### 2.9 [**Glossary: React Components**](#ch2-9)
+>### 2.10 [**Cheatsheet: React Components**](#ch2-10)
 
-1.2.  #### Introduction to Frontend Frameworks and React JS
+## [**Module 3: Advanced React**]
+>### 3.1 [**Module 3 Introduction & Learning Objectives**](#ch3-1)
+>### 3.2 [**Hooks**](#ch3-2)
+>### 3.3 [**Implementing Forms**](#ch3-3)
+>### 3.4 [**Introduction to Redux**](#ch3-4)
+>### 3.5 [**Essential Concepts of Redux - Stores, Procedures and Actions**](#ch3-5)
+>### 3.6 [**Async with Redux**](#ch3-6)
+>### 3.7 [**Binding Redux and Flow**](#ch3-7)
+>### 3.8 [**Hands-on Lab: React Redux**](#ch3-8)
+>### 3.9 [**Reading Module 3 Summary**](#ch3-9)
+>### 3.10 [**Glossary: Advanced React**](#ch3-10)
+>### 3.11 [**Cheatsheet: Advanved React**](#ch3-11)
 
-1.3.  #### Insiders Viewpoints: Front-end Frameworks
+## [**Module 4: Final Project**]
+>### 4.1 [**Module 4 Introduction & Learning Objectives**](#ch4-1)
+>### 4.2 [**Hands-on Lab: Friends List Application Using Express Server with JNT**](#ch4-2)
+>### 4.3 [**Project Overview: Scenario and Review Criteria**](#ch4-3)
+>### 4.4 [**Project Breakdown**](#ch4-4)
+>### 4.5 [**Hands-on Lab: Book Review Application**](#ch4-5)
+>### 4.6 [**Module 4 Summary**](#ch4-6)
 
-1.4.  #### Introduction to ES6
+## [**Course Wrap-Up**]
+>### 5.1 [**Congratulations & Next Steps**](#ch5-1)
+>### 5.2 [**Thanks, from the Coursera Team**](#ch5-2)
 
-1.5.  #### Introduction to JSX
-
-1.6.  #### Hands-on Lab: Hello World with React
-
-1.7.  #### Introduction to Components
-
-1.8.  #### Working with React components - Props and event handling
-
-1.9.  #### Glossary - Building a Rich Front-End Application using REACT & ES6
-
-1.10. #### Cheatsheet - Building a Rich Front-End Application using REACT & ES6
-
-1.11. #### Module 1 Summary
-
-<h3>Module 2 - React components</h3>
-
-2.1.  #### Module Introduction & Learning Objectives
-
-2.2.  #### Introduction to states
-
-2.3.  #### Passing data and states between components
-
-2.4.  #### Components Lifecycle
-
-2.5.  #### Connecting React to External services
-
-2.6.  #### Testing React components
-
-2.7.  #### Hands-on Lab: React Todo List Application
-
-2.8.  #### Reading Module 2 Summary
-
-2.9.  #### Glossary- React Components
-
-2.10. #### Cheatsheet- React Components
-
-<h3>Module 3 - Advanced React</h3>
-
-3.1.  #### Module Introduction & Learning Objectives
-
-3.2.  #### Hooks
-
-3.3.  #### Implementing Forms
-
-3.4.  #### Introduction to Redux
-
-3.5.  #### Essential concepts of Redux - Stores, Procedures and Actions
-
-3.6.  #### Async with Redux
-
-3.7.  #### Binding Redux and Flow
-
-3.8.  #### Lab - React Redux 
-
-3.9.  #### Reading Module 3 Summary
-
-3.10. #### Glossary- Advanced React
-
-3.11. #### Cheatsheet- Advanced React
-
-<h3>Module 4 - Final Project</h3>
-
-4.1.  #### Module Introduction & Learning Objectives
-
-4.2.  #### Practice Assignment - Hands-on Lab: Friends List Application Using
-    Express Server with JWT
-
-4.3.  #### Project Overview: Scenario and Review Criteria
-
-4.4.  #### Project Breakdown
-
-4.5.  #### Hands-on Lab: Book Review Application
-
-4.6.  #### Module Summary
-
-<h3>Course Wrap-Up</h3>
-
--   Congratulations & Next Steps
-
--   Thanks, from the Coursera Team
-
-<h3>Learning Objectives</h3>
+<h3>Module 1: Learning Objectives</h3>
 
 -   Develop interactive user interfaces (UIs) and web applications using
     React, JSX, and ES6.
@@ -4950,14 +4908,13 @@ course, you know:
 
 <h3>Glossary - Advanced React</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 91.  (^^) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 91. ibm skills network logo (^^) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image091.png?raw=true"
-  alt="~."
+  alt="IBM Skills network logo."
   width="25%" />
 </p>
-
 <!-- ![https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0210EN-SkillsNetwork/Glossary/images/IDSN-new-logo\_\_1\_.png](./images/image091.png){width="3.125in" height="1.0833333333333333in"} -->
 
 <h3>Developing Cloud Applications with React</h3>
@@ -5075,8 +5032,15 @@ course, you know:
 
 # Reading: Cheatsheet - Advanced React
 
-![https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0210EN-SkillsNetwork/CheatSheets/images/IDSNlogo.png](./images/image091.png){width="3.125in"
-height="1.0833333333333333in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 91.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image091.png?raw=true"
+  alt="image091."
+  width="30%" />
+</p>
+<!-- ![https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0210EN-SkillsNetwork/CheatSheets/images/IDSNlogo.png](./images/image091.png){width="3.125in" height="1.0833333333333333in"} -->
 
 <b>Advanced React</b>
 <b>Module 3 Advanced React</b>
