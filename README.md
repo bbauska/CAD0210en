@@ -106,88 +106,88 @@ HTML, CSS, and JavaScript course before starting this course.
 
 <h3>Module 1 - Building Rich Front-End Applications with React and ES6</h3>
 
-1.  #### Module Introduction & Learning Objectives
+1.1.  #### Module Introduction & Learning Objectives
 
-2.  #### Introduction to Frontend Frameworks and React JS
+1.2.  #### Introduction to Frontend Frameworks and React JS
 
-3.  #### Insiders Viewpoints: Front-end Frameworks
+1.3.  #### Insiders Viewpoints: Front-end Frameworks
 
-4.  #### Introduction to ES6
+1.4.  #### Introduction to ES6
 
-5.  #### Introduction to JSX
+1.5.  #### Introduction to JSX
 
-6.  #### Hands-on Lab: Hello World with React
+1.6.  #### Hands-on Lab: Hello World with React
 
-7.  #### Introduction to Components
+1.7.  #### Introduction to Components
 
-8.  #### Working with React components - Props and event handling
+1.8.  #### Working with React components - Props and event handling
 
-9.  #### Glossary - Building a Rich Front-End Application using REACT & ES6
+1.9.  #### Glossary - Building a Rich Front-End Application using REACT & ES6
 
-10. #### Cheatsheet - Building a Rich Front-End Application using REACT & ES6
+1.10. #### Cheatsheet - Building a Rich Front-End Application using REACT & ES6
 
-11. #### Module 1 Summary
+1.11. #### Module 1 Summary
 
 <h3>Module 2 - React components</h3>
 
-1.  #### Module Introduction & Learning Objectives
+2.1.  #### Module Introduction & Learning Objectives
 
-2.  #### Introduction to states
+2.2.  #### Introduction to states
 
-3.  #### Passing data and states between components
+2.3.  #### Passing data and states between components
 
-4.  #### Components Lifecycle
+2.4.  #### Components Lifecycle
 
-5.  #### Connecting React to External services
+2.5.  #### Connecting React to External services
 
-6.  #### Testing React components
+2.6.  #### Testing React components
 
-7.  #### Hands-on Lab: React Todo List Application
+2.7.  #### Hands-on Lab: React Todo List Application
 
-8.  #### Reading Module 2 Summary
+2.8.  #### Reading Module 2 Summary
 
-9.  #### Glossary- React Components
+2.9.  #### Glossary- React Components
 
-10. #### Cheatsheet- React Components
+2.10. #### Cheatsheet- React Components
 
 <h3>Module 3 - Advanced React</h3>
 
-1.  #### Module Introduction & Learning Objectives
+3.1.  #### Module Introduction & Learning Objectives
 
-2.  #### Hooks
+3.2.  #### Hooks
 
-3.  #### Implementing Forms
+3.3.  #### Implementing Forms
 
-4.  #### Introduction to Redux
+3.4.  #### Introduction to Redux
 
-5.  #### Essential concepts of Redux - Stores, Procedures and Actions
+3.5.  #### Essential concepts of Redux - Stores, Procedures and Actions
 
-6.  #### Async with Redux
+3.6.  #### Async with Redux
 
-7.  #### Binding Redux and Flow
+3.7.  #### Binding Redux and Flow
 
-8.  #### Lab - React Redux 
+3.8.  #### Lab - React Redux 
 
-9.  #### Reading Module 3 Summary
+3.9.  #### Reading Module 3 Summary
 
-10. #### Glossary- Advanced React
+3.10. #### Glossary- Advanced React
 
-11. #### Cheatsheet- Advanced React
+3.11. #### Cheatsheet- Advanced React
 
 <h3>Module 4 - Final Project</h3>
 
-1.  #### Module Introduction & Learning Objectives
+4.1.  #### Module Introduction & Learning Objectives
 
-2.  #### Practice Assignment - Hands-on Lab: Friends List Application Using
+4.2.  #### Practice Assignment - Hands-on Lab: Friends List Application Using
     Express Server with JWT
 
-3.  #### Project Overview: Scenario and Review Criteria
+4.3.  #### Project Overview: Scenario and Review Criteria
 
-4.  #### Project Breakdown
+4.4.  #### Project Breakdown
 
-5.  #### Hands-on Lab: Book Review Application
+4.5.  #### Hands-on Lab: Book Review Application
 
-6.  #### Module Summary
+4.6.  #### Module Summary
 
 <h3>Course Wrap-Up</h3>
 
@@ -395,14 +395,10 @@ The ReactDOM package is the glue between React and the DOM.
 
 3.  Babel package.
 
-```
 And Babel is the module which is available in most modern browsers.
-
 It is used to compile and interpret the JSX.
-```
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 10. a simple react page (11) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 10. a simple react page (12) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image010.png?raw=true"
@@ -423,7 +419,15 @@ Then the browser will handle the rest.
 The React component is defined inside a script tag which is of type
 text/babel.
 
-![](./images/image011.png){width="6.5in" height="3.78125in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 11. a simple react page (11) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image011.png?raw=true"
+  alt="A simple React page."
+  width="50%" />
+</p>
+<!-- ![](./images/image011.png){width="6.5in" height="3.78125in"} -->
 
 Here, the defined component is MyComp, which inherits from
 React.Component.
@@ -438,7 +442,15 @@ want to set, in this case the name attribute.
 
 Then specify where in the HTML the component should be rendered.
 
-![](./images/image012.png){width="6.5in" height="3.78125in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 12. a simple react page (13) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image012.png?raw=true"
+  alt="A simple React page."
+  width="50%" />
+</p>
+<!-- ![](./images/image012.png){width="6.5in" height="3.78125in"} -->
 
 In this example, it is rendered in comp1.
 
@@ -447,22 +459,43 @@ When you open the HTML, you will see the page with the HTML component
 Facebook has provided a utility called Create React App, which
 simplifies the process of creating React applications.
 
-![](./images/image013.png){width="4.989583333333333in"
-height="2.90625in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 13. creating a react app (13) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image013.png?raw=true"
+  alt="Creating a React app."
+  width="50%" />
+</p>
+<!-- ![](./images/image013.png){width="4.989583333333333in" height="2.90625in"} -->
 
 If you have Node.js installed, you should be able to run npx
 create-react-app with the name of the application you want to create.
 
-![](./images/image014.png){width="4.989583333333333in"
-height="2.90625in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 14. npm create-react-app (14) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image014.png?raw=true"
+  alt="npm create-react-app todoapp."
+  width="50%" />
+</p>
+<!-- ![](./images/image014.png){width="4.989583333333333in" height="2.90625in"} -->
 
 Here, the name of the application is todoapp.
 
 When you run the npx create-react-app command, a directory structure
 with all the necessary files is created.
 
-![](./images/image015.png){width="4.989583333333333in"
-height="2.90625in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 15. creating a react application (14) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image015.png?raw=true"
+  alt="Creating a React application."
+  width="50%" />
+</p>
+<!-- ![](./images/image015.png){width="4.989583333333333in" height="2.90625in"} -->
 
 The directory structure contains all the resources required to create
 and run a React application.
@@ -477,8 +510,15 @@ into your HTML page, and index.js is where you will add App to the HTML.
 To run the React application, you go into the application directory and
 run npm start, which starts the server, mostly on port 3000.
 
-![](./images/image016.png){width="4.989583333333333in"
-height="2.90625in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 16. running the react application (15) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image016.png?raw=true"
+  alt="Running the React application."
+  width="50%" />
+</p>
+<!-- ![](./images/image016.png){width="4.989583333333333in" height="2.90625in"} -->
 
 You can see the React component when you connect to the application from
 the browser.
@@ -501,7 +541,7 @@ In this section, you learned that:
 
 -   With Create React App, you can easily create a React application.
 
-# 1.3.Insiders Viewpoints: Front-end Frameworks (3:09)
+<h2 id="ch1-3">1.3.Insiders Viewpoints: Front-end Frameworks (3:09)</h2>
 
 Welcome to Expert Viewpoints: Using Front-end JavaScript Frameworks.
 
@@ -565,7 +605,7 @@ for some student projects.
 And fortunately, I\'ve never had to go into it any deeper than just
 editing existing code.
 
-# 1.4.Introduction to ES6 (6:46)
+<h2 id="ch1-4">1.4.Introduction to ES6 (6:46)</h2>
 
 Welcome to Introduction to ES6.
 
@@ -604,9 +644,15 @@ restrict the scope of variables within the block where they are
 declared.
 
 This limited scope is called \"local scope.\"
-
-![](./images/image017.png){width="5.0in"
-height="3.2083333333333335in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 17. let and const (18) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image017.png?raw=true"
+  alt="A simple React page."
+  width="50%" />
+</p>
+<!-- ![](./images/image017.png){width="5.0in" height="3.2083333333333335in"} -->
 
 In this example, num has scope just within that block.
 
@@ -618,7 +664,15 @@ is 5.
 
 You use both let and const in React programming.
 
-![](./images/image018.png){width="5.0in" height="3.2125in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 18.  () ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image018.png?raw=true"
+  alt="A simple React page."
+  width="50%" />
+</p>
+<!-- ![](./images/image018.png){width="5.0in" height="3.2125in"} -->
 
 Arrow functions allow you to declare functions the same way that you
 declare variables.
@@ -2986,8 +3040,7 @@ course, you know:
 
 <h2>Cheatsheet - React Components</h2>
 
-![https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0210EN-SkillsNetwork/CheatSheets/images/IDSNlogo.png](./images/image091.png){width="3.125in"
-height="1.0833333333333333in"}
+![https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0210EN-SkillsNetwork/CheatSheets/images/IDSNlogo.png](./images/image091.png){width="3.125in" height="1.0833333333333333in"}
 
 <b>React components</b>
 <h2><b>Module 2 React components</b></h2>
