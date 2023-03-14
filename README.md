@@ -1515,13 +1515,17 @@ following tasks:
 2.  In the terminal, paste and run the following command to go to the
     home/project directory.
 
--   <b>cd /home/project</b>
+```
+>  $ cd /home/project
+```
 
 3.  Run the following command to create a react application named
     <b>myfirstapp</b>. It is mandated that the React application name
     cannot contain any uppercase letter.
 
--   <b>npx create-react-app myfirstapp</b>
+```
+>  $ npx create-react-app myfirstapp
+```
 
 4.  It requires you to confirm that the packages required can be
     installed. Confirm to get started with the installation.
@@ -1530,13 +1534,17 @@ following tasks:
     folder with the name specified by you for the application. Change to
     that folder by running the following command.
 
--   <b>cd myfirstapp</b>
+```
+>  $ cd myfirstapp
+```
 
 6.  create-react-app creates the boiler plate code which is required for
     you to run a basic React app. To check the react app that has been
     created, run the following command.
 
--   <b>npm start</b>
+```
+>  $ npm start
+```
 
 This will start the react development server on port 3000.
 
@@ -1576,7 +1584,7 @@ Press Ctlr+C at the command prompt to stop the react development server.
 </p>
 <!-- ![](./images/image062.png){width="5.0in" height="2.7708333333333335in"} -->
 
-# Modify for Hello World App
+## Modify for Hello World App
 
 1.  Within the src folder of the myfirstapp project folder, you will
     find <b>App.js</b> and <b>index.js</b>.
@@ -1593,58 +1601,44 @@ Press Ctlr+C at the command prompt to stop the react development server.
 The following code should be replaced in index.js inside of the src folder. 
 All the styling will be removed as a result, leaving you with the basic needs.
 
-1.  import React from \'react\';
-
-2.  import ReactDOM from \'react-dom/client\';
-
-3.  import App from \'./App\';
-
-4.  
-
-5.  const root = ReactDOM.createRoot(document.getElementById(\'root\'));
-
-6.  root.render(
-
-7.  \<App /\>
-
-8.  );
-
 ```{=html}
-<!-- -->
+1.  import React from &#39;react&#39;;
+2.  import ReactDOM from &#39;react-dom/client&#39;;
+3.  import App from &#39;./App&#39;;
+4.  
+5.  const root = ReactDOM.createRoot(document.getElementById(&#39;root&#39;));
+6.  root.render(
+7.  &lt;App /&gt;
+8.  );
 ```
+
 2.  Replace the content of App.js inside the folder src, with the
     following code.
 
 ```{=html}
-<!-- -->
-```
 1.  function App() {
-
 2.  return (
-
-3.  \<h1\>Hello World\</h1\>
-
+3.  &lt;h1&gt;Hello World&lt;/h1&gt;
 4.  );
-
 5.  }
-
 6.  
-
 7.  export default App;
-
-```{=html}
-<!-- -->
 ```
+
 3.  Remove all the files which you do not require for this lab, by
     running the following command.
 
--   rm src/App.css src/App.test.js src/index.css src/logo.svg
-    src/reportWebVitals.js src/setupTests.js
+```
+>  $  rm src/App.css src/App.test.js src/index.css src/logo.svg
+        src/reportWebVitals.js src/setupTests.js
+```
 
 4.  Now start the server again and follow the steps mentioned earlier to
     launch and view the application on the browser.
 
--   npm start
+```
+>  $ npm start
+```
 
 You will see the page render with the message "Hello World".
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4088,7 +4082,7 @@ course, you know:
 |       | . |                              |   |                              |
 | ----- | - | ---------------------------- | - | ---------------------------- |
 
-## Changelog
+<h4>Changelog</h4>
 
   ---------------------------------------------------------------------------
   <b>Date</b>       <b>Version</b>   <b>Changed by</b>       <b>Change Description</b>
@@ -4097,7 +4091,7 @@ course, you know:
 
   ---------------------------------------------------------------------------
 
-### © IBM Corporation 2022. All rights reserved. 
+<h5>© IBM Corporation 2022. All rights reserved.</h5>
 
 <h2 id="ch3-1">3.1 Module Introduction and Learning Objectives</h2>
 
@@ -4124,7 +4118,7 @@ in updating of the component properties.   
 
 -   Describe data flow in Redux
 
-<h2 id="ch3-2">3.2 Hooks (5:45)</h3>
+<h2 id="ch3-2">3.2 Hooks (5:45)</h2>
 
 Welcome to Hooks.
 
@@ -4479,7 +4473,7 @@ In this section, you learned that:
 -   And React Hook forms give better performance and reduce the number
     of re-renders.
 
-<h3>Introduction to Redux (5:25)</h3>
+<h2 id="ch3-4">3.4 Introduction to Redux (5:25)</h2>
 
 Welcome to Introduction to Redux. After reading this section, you will
 be able to:
@@ -4605,7 +4599,7 @@ In this section, you learned that:
 -   And finally, Redux is used when you need to manage the state of the
     components.
 
-<h3>Essential Concepts of Redux (4:57)</h3>
+<h2 id="ch3-5">3.5 Essential Concepts of Redux (4:57)</h2>
 
 Welcome to Essential Concepts of Redux.
 
@@ -4736,7 +4730,7 @@ In this section, you learned that:
 -   And you can subscribe to listen to events whenever the Store
     updates.
 
-<h3>Async with Redux (8:17)</h3>
+<h2 id="ch3-6">3.6 Async with Redux (8:17)</h2>
 
 Welcome to Async with Redux.
 
@@ -4955,7 +4949,7 @@ In this section, you learned that:
 -   Redux Thunk allows you to pass functions within your action creators
     to create an asynchronous Redux.
 
-<h3>Binding Redux and Flow (6:14)</h3>
+<h2 id="ch3-7">3.7 Binding Redux and Flow (6:14)</h2>
 
 Welcome to Binding Redux and Flow.
 
@@ -5114,7 +5108,7 @@ In this section, you learned that:
 -   And, it\'s easier to manage the state when actions performed on the
     UI are separated from the changing of the state.
 
-<h3>Hands-on Lab: React Redux</h3>
+<h2 id="ch3-8">3.8 Hands-on Lab: React Redux</h2>
 
 In this lab, you will be building an increment counter using Redux.
 
@@ -5150,7 +5144,7 @@ labs virtual labs environment with instructions to complete this lab.
 Your username and email will be shared with SN Labs to authenticate and
 provision your lab environment.
 
-<h3>Reading: Module 3 Summary</h3>
+<h3 id="ch3-9">3.9 Reading: Module 3 Summary</h3>
 
 Congratulations! You have completed this module. At this point in the
 course, you know:
@@ -5185,7 +5179,7 @@ course, you know:
 
 <h3>Developing Cloud Applications with React</h3>
 
-<h2>Module 3: Glossary - Advanced React</h2>
+<h2 id="ch3-10">3.10 Module 3: Glossary - Advanced React</h2>
 
   -----------------------------------------------------------------------
   <b>Term</b>                            <b>Definition</b>
@@ -5296,7 +5290,7 @@ course, you know:
 
 # 
 
-# Reading: Cheatsheet - Advanced React
+<h2 id="ch3-11">3.11 Reading: Cheatsheet - Advanced React</h2>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 91.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5531,7 +5525,7 @@ labs virtual labs environment with instructions to complete this lab.
 Your username and email will be shared with SN Labs to authenticate and
 provision your lab environment.
 
-<h2>Module 4 Summary</h2>
+<h2 id="ch4-6">4.6 Module 4 Summary</h2>
 
 Congratulations! You have completed this module. In the final project,
 you learned to create a budget allocation application using React.js.
@@ -5561,8 +5555,10 @@ We encourage you to leave your feedback and rate this course so that we can cont
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ##.  (^^) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--
 <p align="center" width="100%">
 <img src="./images/image###.png?raw=true"
   alt="~."
   width="25%" />
 </p>
+-->
