@@ -607,7 +607,7 @@ This limited scope is called \"local scope.\"
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image017.png?raw=true"
-  alt="A simple React page."
+  alt="let and const."
   width="50%" />
 </p>
 <!-- ![](./images/image017.png){width="5.0in" height="3.2083333333333335in"} -->
@@ -623,11 +623,11 @@ is 5.
 You use both let and const in React programming.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 18.  () ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 18. arrow functions (19) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image018.png?raw=true"
-  alt="A simple React page."
+  alt="Arrow functions."
   width="50%" />
 </p>
 <!-- ![](./images/image018.png){width="5.0in" height="3.2125in"} -->
@@ -641,15 +641,29 @@ What you see here is how a function was written in the older ES5
 JavaScript.
 
 Below you can see how it is written in ES6.
-
-![](./images/image019.png){width="5.0in" height="3.2125in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 19. arrow functions (20) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image019.png?raw=true"
+  alt="Arrow functions - declared as with variables, #2 of 4."
+  width="50%" />
+</p>
+<!-- ![](./images/image019.png){width="5.0in" height="3.2125in"} -->
 
 A function can also be declared with <b>let</b> and <b>const</b> just like a
 variable.
 
 This function doesn\'t take any parameters and has only one statement.
-
-![](./images/image020.png){width="5.0in" height="2.81875in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 20. arrow functions (20) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image001.png?raw=true"
+  alt="Arrow functions - #3 of 4."
+  width="50%" />
+</p>
+<!-- ![](./images/image020.png){width="5.0in" height="2.81875in"} -->
 
 Notice that there are no curly brackets '{ }'.
 
@@ -667,8 +681,15 @@ setTimeout.
 Arrow functions also take parameters like normal functions.
 
 They can return a data type or an object.
-
-![](./images/image021.png){width="5.0in" height="2.81875in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 21. arrow function with parameters (21) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image021.png?raw=true"
+  alt="Arrow function with parameters."
+  width="50%" />
+</p>
+<!-- ![](./images/image021.png){width="5.0in" height="2.81875in"} -->
 
 1: const oneParamArrowFunc = name =\> {return "hello "+name};
 
@@ -705,8 +726,15 @@ So, it doesn't need curly brackets.
 #3 is a function that takes two parameters and returns one value.
 
 #4 is a function that takes two parameters and has two lines of code.
-
-![](./images/image022.png){width="5.0in" height="2.8125in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 22. promise object (22) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image022.png?raw=true"
+  alt="Promise object."
+  width="50%" />
+</p>
+<!-- ![](./images/image022.png){width="5.0in" height="2.8125in"} -->
 
 The promise object represents the eventual completion of an asynchronous
 operation and its return value.
@@ -718,8 +746,15 @@ When the operation executes successfully, the promise is said to be
 fulfilled.
 
 When the operation fails, the promise is said to be rejected.
-
-![](./images/image023.png){width="5.0in" height="2.8125in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 23. promise example (23) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image001.png?raw=true"
+  alt="Promise example."
+  width="50%" />
+</p>
+<!-- ![](./images/image023.png){width="5.0in" height="2.8125in"} -->
 
 In the first example, you have an arrow function, promiseArgument, which
 takes two parameters (resolve and reject).
@@ -729,19 +764,40 @@ function invokes resolve with \"Success\" as a parameter; if not, it
 invokes reject with \"Failed\" as a parameter.
 
 This function is passed to the constructor of the promise object.
-
-![](./images/image024.png){width="5.0in" height="2.8125in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 24. promise example, #2 (23) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image024.png?raw=true"
+  alt="Promise example, #2."
+  width="50%" />
+</p>
+<!-- ![](./images/image024.png){width="5.0in" height="2.8125in"} -->
 
 In the second example, instead of creating promiseArgument, you are
 directly creating the function in time with the promise constructor. The
 behavior in both cases is identical.
-
-![](./images/image025.png){width="5.0in" height="2.8125in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 25. class #1 (24) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image025.png?raw=true"
+  alt="."
+  width="50%" />
+</p>
+<!-- ![](./images/image025.png){width="5.0in" height="2.8125in"} -->
 
 Object-oriented programming was made feasible in JavaScript with the
 introduction of class.
-
-![](./images/image026.png){width="5.0in" height="2.8125in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 26. class #2 (24) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image026.png?raw=true"
+  alt="."
+  width="50%" />
+</p>
+<!-- ![](./images/image026.png){width="5.0in" height="2.8125in"} -->
 
 Class is a template or blueprint for creating objects.
 
@@ -754,25 +810,53 @@ programming concepts are available with function prototypes.
 
 The concept of class was built on the premise of function prototype to
 extend object-oriented programming to JavaScript.
-
-![](./images/image027.png){width="5.0in" height="2.8125in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 27.  (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image027.png?raw=true"
+  alt="."
+  width="50%" />
+</p>
+<!-- ![](./images/image027.png){width="5.0in" height="2.8125in"} -->
 
 Here, the first console log will print the entire prototype of the
 person1 object.
 
 The second console log will print the name. And the third console log
 will print the age.
-
-![](./images/image028.png){width="5.0in" height="2.8125in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 28.  (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image028.png?raw=true"
+  alt="."
+  width="50%" />
+</p>
+<!-- ![](./images/image028.png){width="5.0in" height="2.8125in"} -->
 
 Class can have a constructor, which is a method that is called when you
 want to create an object of class.
-
-![](./images/image029.png){width="5.0in" height="2.8125in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 29.  (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image029.png?raw=true"
+  alt="."
+  width="50%" />
+</p>
+<!-- ![](./images/image029.png){width="5.0in" height="2.8125in"} -->
 
 The body of the class is the part that is in curly brackets.
-
-![](./images/image030.png){width="5.0in" height="2.8125in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 30.  (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image030.png?raw=true"
+  alt="."
+  width="50%" />
+</p>
+<!-- ![](./images/image030.png){width="5.0in" height="2.8125in"} -->
 
 Here, rectangle is the general class.
 
@@ -782,8 +866,15 @@ When you create a rectangle object, you pass the height and width as
 parameters to the constructor.
 
 MyRectangle is an object constructed with the Rectangle class.
-
-![](./images/image031.png){width="5.0in" height="2.8125in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 31.  (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image031.png?raw=true"
+  alt="."
+  width="50%" />
+</p>
+<!-- ![](./images/image031.png){width="5.0in" height="2.8125in"} -->
 
 In this example, an object of the class can be created using the new
 keyword.
@@ -793,9 +884,15 @@ using \"this\" as the keyword.
 
 Rectangle is the blueprint. The keyword helps to set the properties for
 the myRectangle object.
-
-![](./images/image032.png){width="5.0in"
-height="2.8333333333333335in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 32.  (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image032.png?raw=true"
+  alt="."
+  width="50%" />
+</p>
+<!-- ![](./images/image032.png){width="5.0in" height="2.8333333333333335in"} -->
 
 In JavaScript ES6, a class can inherit from another class.
 
@@ -804,8 +901,15 @@ The class that is inheriting one other class is called the subclass.
 The superclass is the class being inherited by the subclass.
 
 The subclass inherits all the attributes and methods of the superclass.
-
-![](./images/image033.png){width="6.5in" height="3.6875in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 33.  (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image033.png?raw=true"
+  alt="."
+  width="65%" />
+</p>
+<!-- ![](./images/image033.png){width="6.5in" height="3.6875in"} -->
 
 React components use inheritance to build user-defined components.
 
@@ -813,8 +917,15 @@ The subclass has a special privilege to call the superclass constructor
 with the super() method call.
 
 A square is a rectangle with the same value for width and height.
-
-![](./images/image034.png){width="6.5in" height="3.6875in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 34.  (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image034.png?raw=true"
+  alt="."
+  width="65%" />
+</p>
+<!-- ![](./images/image034.png){width="6.5in" height="3.6875in"} -->
 
 Here, if the height is not the same as the width specified, the width
 will become equal to the height.
@@ -829,11 +940,17 @@ In this section, you learned that:
 
 -   Object-oriented programming was made feasible in JavaScript with the
     introduction of class.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 35.  (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image035.png?raw=true"
+  alt="."
+  width="30%" />
+</p>
+<!-- ![](./images/image035.png){width="3.0in" height="1.6979166666666667in"} -->
 
-![](./images/image035.png){width="3.0in"
-height="1.6979166666666667in"}
-
-# 1.5.Introduction to JSX (5:13 )
+<h2 id="ch1-5">1.5.Introduction to JSX (5:13)</h2>
 
 Welcome to introduction to JSX
 
@@ -846,8 +963,15 @@ After reading this section, you will be able to
 -   Describe the benefits of using JSX, and
 
 -   Explain how to create a React component using JSX.
-
-![](./images/image036.png){width="5.0in" height="2.8125in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 36.  (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image036.png?raw=true"
+  alt="."
+  width="50%" />
+</p>
+<!-- ![](./images/image036.png){width="5.0in" height="2.8125in"} -->
 
 JSX or JavaScript Syntax Extension or JavaScript XML is an extension to
 JavaScript.
@@ -857,8 +981,15 @@ React.
 
 JSX produces React "elements" that can be used to render the component
 to Document Object Model or DOM.
-
-![](./images/image037.png){width="6.5in" height="3.65625in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 37.  (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image037.png?raw=true"
+  alt="."
+  width="50%" />
+</p>
+<!-- ![](./images/image037.png){width="6.5in" height="3.65625in"} -->
 
 The JSX syntax is like an XML or HTML-like syntax used by React that
 extends ECMAScript that is a standard used for client-side scripting.
@@ -871,28 +1002,56 @@ transpilers or compilers like Babel, to transform HTML-like text found
 in JavaScript files into standard JavaScript objects.
 
 These objects can then be parsed by a JavaScript engine.
-
-![](./images/image038.png){width="6.5in" height="3.65625in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 38.  (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image038.png?raw=true"
+  alt="."
+  width="50%" />
+</p>
+<!-- ![](./images/image038.png){width="6.5in" height="3.65625in"} -->
 
 Let us see a sample JSX code.
 
 The code shows a construct 'el1' that displays the heading 'This is a
 sample JSX code snippet'.
-
-![](./images/image039.png){width="6.5in" height="3.65625in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 39.  (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image039.png?raw=true"
+  alt="."
+  width="50%" />
+</p>
+<!-- ![](./images/image039.png){width="6.5in" height="3.65625in"} -->
 
 The code snippet looks like HTML, but also uses a JavaScript-like
 variable that is neither HTML nor JavaScript, it is JSX.
 
 JSX is basically a syntax extension of regular JavaScript and is used to
 create React elements.
-
-![](./images/image040.png){width="6.5in" height="3.65625in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 40.  (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image040.png?raw=true"
+  alt="."
+  width="50%" />
+</p>
+<!-- ![](./images/image040.png){width="6.5in" height="3.65625in"} -->
 
 These elements are then rendered to the React Document Object Model or
 DOM.
-
-![](./images/image041.png){width="6.5in" height="3.65625in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 41.  (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image041.png?raw=true"
+  alt="."
+  width="50%" />
+</p>
+<!-- ![](./images/image041.png){width="6.5in" height="3.65625in"} -->
 
 JSX is a declarative language that combines JavaScript with HTML.
 
@@ -905,8 +1064,15 @@ JSX code.
 
 Fortunately, create-react-app command will take care of this compilation
 and you don\'t need to worry about it.
-
-![](./images/image042.png){width="6.5in" height="3.65625in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 42.  (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image042.png?raw=true"
+  alt="."
+  width="50%" />
+</p>
+<!-- ![](./images/image042.png){width="6.5in" height="3.65625in"} -->
 
 Let's discuss some benefits of using JSX.
 
@@ -938,16 +1104,30 @@ prevent attacks such as cross-site scripting.
 
 Let's make a React component using JSX and see how it translates to
 regular JavaScript function calls.
-
-![](./images/image043.png){width="6.5in" height="3.65625in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 43.  (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image043.png?raw=true"
+  alt="."
+  width="50%" />
+</p>
+<!-- ![](./images/image043.png){width="6.5in" height="3.65625in"} -->
 
 To start with, this code example demonstrates an app that creates a div
 element with a list of two items that displays Items number 1 and 2.
 
 The App function contains code which looks extremely similar to plain
 HTML and uses the same XML-based syntax.
-
-![](./images/image044.png){width="6.5in" height="3.65625in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 44.  (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image044.png?raw=true"
+  alt="."
+  width="50%" />
+</p>
+<!-- ![](./images/image044.png){width="6.5in" height="3.65625in"} -->
 
 This is how the compiled code in regular Javascript function calls looks
 like.
@@ -972,8 +1152,15 @@ In this section you learned that:
     messages.
 
 # Introduction to Components (6:36)
-
-![](./images/image045.png){width="6.5in" height="3.65625in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 45.  (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image045.png?raw=true"
+  alt="."
+  width="50%" />
+</p>
+<!-- ![](./images/image045.png){width="6.5in" height="3.65625in"} -->
 
 Welcome to Introduction to Components.
 
@@ -986,8 +1173,15 @@ After reading this section, you will be able to
 -   Compare and contrast the four types of components, and
 
 -   Create a Hello World React component.
-
-![](./images/image046.png){width="5.0in" height="2.8125in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 46.  (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image046.png?raw=true"
+  alt="."
+  width="50%" />
+</p>
+<!-- ![](./images/image046.png){width="5.0in" height="2.8125in"} -->
 
 A component is one of the core building blocks of React.
 
@@ -995,8 +1189,15 @@ In other words, every application you develop in React will be made up
 of pieces called components.
 
 Components make the task of building user interface easier.
-
-![](./images/image047.png){width="5.0in" height="2.8125in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 47.  (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image047.png?raw=true"
+  alt="."
+  width="50%" />
+</p>
+<!-- ![](./images/image047.png){width="5.0in" height="2.8125in"} -->
 
 You can break down the UI into multiple individual pieces called
 components and merge them all into a parent component that forms the
@@ -1009,8 +1210,15 @@ These can then be reused and handled independently.
 
 A React component takes an optional input and returns a React
 object which is rendered on the screen.
-
-![](./images/image048.png){width="5.0in" height="2.8125in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 48. features of react component (40) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image048.png?raw=true"
+  alt="."
+  width="50%" />
+</p>
+<!-- ![](./images/image048.png){width="5.0in" height="2.8125in"} -->
 
 A React component represents a small chunk of user interface in a
 webpage.
@@ -1020,8 +1228,15 @@ interface and update it whenever its internal state is modified.
 
 In addition to rendering the UI, it manages the events that belong to
 its user interface, such as a button component which has a click event.
-
-![](./images/image049.png){width="5.0in" height="2.8125in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 49.  (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image049.png?raw=true"
+  alt="."
+  width="50%" />
+</p>
+<!-- ![](./images/image049.png){width="5.0in" height="2.8125in"} -->
 
 State is an object that describes how the component will behave and
 render currently.
@@ -1032,8 +1247,15 @@ A stateful component updates its UI with respect to its state.
 
 "Stateful" components are of the class type, while "stateless"
 components are of the function type.
-
-![](./images/image050.png){width="5.0in" height="2.8125in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 50.  (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image050.png?raw=true"
+  alt="."
+  width="50%" />
+</p>
+<!-- ![](./images/image050.png){width="5.0in" height="2.8125in"} -->
 
 React components accomplish these features using three concepts,
 properties, events, and states.
@@ -1048,12 +1270,28 @@ Events enable the component to manage document object model
 States enable the component to stay stateful and update the UI with
 respect to the current state of the component.
 
-![](./images/image051.png){width="5.0in" height="2.8125in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 51.  (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image051.png?raw=true"
+  alt="."
+  width="50%" />
+</p>
+<!-- ![](./images/image051.png){width="5.0in" height="2.8125in"} -->
 
 In React, there are mainly Functional, Class, Pure, and High-order
 components.
 
-![](./images/image052.png){width="5.0in" height="2.8125in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 52.  (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image052.png?raw=true"
+  alt="."
+  width="50%" />
+</p>
+<!-- ![](./images/image052.png){width="5.0in" height="2.8125in"} -->
 
 Functional components can be created by writing a JavaScript function.
 
@@ -1076,8 +1314,15 @@ Functional components are usually used to display information.
 They are easy to read, debug, and test.
 
 Functional components are stateless.
-
-![](./images/image053.png){width="5.0in" height="2.8125in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 53.  (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image053.png?raw=true"
+  alt="."
+  width="50%" />
+</p>
+<!-- ![](./images/image053.png){width="5.0in" height="2.8125in"} -->
 
 And this means that a functional component does not have a state and is
 a plain JavaScript function.
@@ -1085,8 +1330,15 @@ a plain JavaScript function.
 This code example shows a valid functional component in React.
 
 In the code, the function Democomponent returns 'Welcome Message'.
-
-![](./images/image054.png){width="5.0in" height="2.8125in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 54.  (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image054.png?raw=true"
+  alt="."
+  width="50%" />
+</p>
+<!-- ![](./images/image054.png){width="5.0in" height="2.8125in"} -->
 
 Class Components are a little more complex than functional components.
 
@@ -1105,15 +1357,29 @@ methods.
 
 Class components are stateful. This means they have a state that can be
 re-rendered.
-
-![](./images/image055.png){width="5.0in" height="2.8125in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 55.  (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image055.png?raw=true"
+  alt="."
+  width="50%" />
+</p>
+<!-- ![](./images/image055.png){width="5.0in" height="2.8125in"} -->
 
 This example code shows a valid class-based component in React.
 
 In the code, the class Democomponent extends React Component, and within
 the class, the render function returns 'Welcome Message'.
-
-![](./images/image056.png){width="5.0in" height="2.8125in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 56.  (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image056.png?raw=true"
+  alt="."
+  width="50%" />
+</p>
+<!-- ![](./images/image056.png){width="5.0in" height="2.8125in"} -->
 
 Pure Components are better than functional components.
 
@@ -1125,8 +1391,15 @@ They do not depend on or modify the state of variables outside their
 scope.
 
 Hence, pure components can replace simple functional components.
-
-![](./images/image057.png){width="5.0in" height="2.8125in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 57.  (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image057.png?raw=true"
+  alt="."
+  width="50%" />
+</p>
+<!-- ![](./images/image057.png){width="5.0in" height="2.8125in"} -->
 
 A Higher-order component (HOC) is an advanced technique in React for
 reusing component logic.
@@ -1137,8 +1410,15 @@ It is a pattern that emerged from React's compositional nature.
 
 Basically, HOCs are functions that return a component(s) that are used
 to share logic with other components.
-
-![](./images/image058.png){width="5.0in" height="2.8125in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 58.  (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image058.png?raw=true"
+  alt="."
+  width="50%" />
+</p>
+<!-- ![](./images/image058.png){width="5.0in" height="2.8125in"} -->
 
 This is an example of a functional component to create a sample
 Helloworld component.
@@ -1159,8 +1439,15 @@ This code is one of the many ways in which you can define your custom
 component and export it to be used in application.
 
 In this section you learned that:
-
-![](./images/image059.png){width="5.0in" height="2.8125in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 59.  (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image059.png?raw=true"
+  alt="."
+  width="50%" />
+</p>
+<!-- ![](./images/image059.png){width="5.0in" height="2.8125in"} -->
 
 -   Every application you will develop in React will be made up of
     pieces called components.
@@ -1257,25 +1544,52 @@ This will start the react development server on port 3000.
     Toolbox logo and from the options choose OTHER and click Launch
     Application. Enter the port number 3000 and click on the arrow mark
     to launch the application.
-
-![https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0210EN-SkillsNetwork/images/launch_app.png](./images/image060.png)
-{width="6.5in" height="3.78125in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 60.  (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image060.png?raw=true"
+  alt="."
+  width="65%" />
+</p>
+<!-- ![https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0210EN-SkillsNetwork/images/launch_app.png](./images/image060.png) {width="6.5in" height="3.78125in"} -->
 
 8.  This will launch the application in a new browser tab.
-
-![https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0210EN-SkillsNetwork/labs/module1/images/react_page.png](./images/image061.png){width="5.0in" height="2.6666666666666665in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 61.  (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image061.png?raw=true"
+  alt="."
+  width="50%" />
+</p>
+<!-- ![https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0210EN-SkillsNetwork/labs/module1/images/react_page.png](./images/image061.png){width="5.0in" height="2.6666666666666665in"} -->
 
 Press Ctlr+C at the command prompt to stop the react development server.
-
-![](./images/image062.png){width="5.0in" height="2.7708333333333335in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 62.  (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image062.png?raw=true"
+  alt="."
+  width="50%" />
+</p>
+<!-- ![](./images/image062.png){width="5.0in" height="2.7708333333333335in"} -->
 
 # Modify for Hello World App
 
 1.  Within the src folder of the myfirstapp project folder, you will
     find <b>App.js</b> and <b>index.js</b>.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 63.  (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image001.png?raw=true"
+  alt="."
+  width="20%" />
+</p>
+<!-- ![](./images/image063.jpeg){width="2.0in" height="3.9833333333333334in"} -->
 
-![](./images/image063.jpeg){width="2.0in"
-height="3.9833333333333334in"}
 The following code should be replaced in index.js inside of the src folder. 
 All the styling will be removed as a result, leaving you with the basic needs.
 
@@ -1333,9 +1647,15 @@ All the styling will be removed as a result, leaving you with the basic needs.
 -   npm start
 
 You will see the page render with the message "Hello World".
-
-![](./images/image064.png){width="5.0in"
-height="2.7708333333333335in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 64.  (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image064.png?raw=true"
+  alt="."
+  width="50%" />
+</p>
+<!-- ![](./images/image064.png){width="5.0in" height="2.7708333333333335in"} -->
 
 # Working with React Components - Props and Event Handling (5:43)
 
@@ -1345,8 +1665,15 @@ In this module, you will learn about React components and their
 properties and states.
 
 After reading this module, you will be able to:
-
-![](./images/image065.png){width="5.0in" height="2.8125in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 65.  (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image065.png?raw=true"
+  alt="."
+  width="50%" />
+</p>
+<!-- ![](./images/image065.png){width="5.0in" height="2.8125in"} -->
 
 -   Define functional and class components,
 
@@ -1358,8 +1685,15 @@ React is a JavaScript user interface (UI) library created and maintained
 as an open source by Facebook and a community of developers.
 
 It is a tool used for building UI components.
-
-![](./images/image066.png){width="5.0in" height="2.8125in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 66.  (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image066.png?raw=true"
+  alt="."
+  width="50%" />
+</p>
+<!-- ![](./images/image066.png){width="5.0in" height="2.8125in"} -->
 
 Any graphical user interface (GUI) that you see is made of many
 components.
