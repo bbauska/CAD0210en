@@ -1,14 +1,12 @@
-<h6>readme.md</h6>
+<h2 align="center'>CAD0210en</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ cad0210en - ibm/edx.org f-e appl'n dev with react ~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h1>CAD0210en</h1>
-
 <h2 align="center">Front-End Application Development with React - ibm and edx.org</h2>
-
+<!--
 <a href="https://learning.edx.org/course/course-v1:IBM+CAD0210EN+3T2022/block-v1:IBM+CAD0210EN+3T2022+type@sequential+block@86a76b2ee03e41c9b4ab237824de84e3/block-v1:IBM+CAD0210EN+3T2022+type@vertical+block@1651a0e258694b6eb43c58d6a413d12c">EDx/IBM CAD0210en Front-End Application Development with React</a>
-
-<h2>edX &amp; IBM CAD0210en Front-End Application Development with React</h2>
+-->
+<h2 align="center">edX &amp; IBM CAD0210en Front-End Application Development with React</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 01. ibm skills network logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -118,7 +116,7 @@ HTML, CSS, and JavaScript course before starting this course.
 >### 1.10 [**Cheatsheet - Building a Rich Front-End Application using React and ES6**](#ch1-10)
 >### 1.11 [**Module 1 Summary**](#ch1-11)
 
-## 2. [**Module 2: React Components**]
+## 2. [**Module 2: React Components**](#ch2)
 >### 2.1 [**Module 2 Introduction & Learning Objectives**](#ch2-1)
 >### 2.2 [**Introduction to States**](#ch2-2)
 >### 2.3 [**Passing Data and States Between Components**](#ch2-3)
@@ -130,7 +128,7 @@ HTML, CSS, and JavaScript course before starting this course.
 >### 2.9 [**Glossary: React Components**](#ch2-9)
 >### 2.10 [**Cheatsheet: React Components**](#ch2-10)
 
-## 3. [**Module 3: Advanced React**]
+## 3. [**Module 3: Advanced React**](#ch3)
 >### 3.1 [**Module 3 Introduction & Learning Objectives**](#ch3-1)
 >### 3.2 [**Hooks**](#ch3-2)
 >### 3.3 [**Implementing Forms**](#ch3-3)
@@ -143,7 +141,7 @@ HTML, CSS, and JavaScript course before starting this course.
 >### 3.10 [**Glossary: Advanced React**](#ch3-10)
 >### 3.11 [**Cheatsheet: Advanved React**](#ch3-11)
 
-## 4. [**Module 4: Final Project**]
+## 4. [**Module 4: Final Project**](#ch4)
 >### 4.1 [**Module 4 Introduction & Learning Objectives**](#ch4-1)
 >### 4.2 [**Hands-on Lab: Friends List Application Using Express Server with JNT**](#ch4-2)
 >### 4.3 [**Project Overview: Scenario and Review Criteria**](#ch4-3)
@@ -151,7 +149,7 @@ HTML, CSS, and JavaScript course before starting this course.
 >### 4.5 [**Hands-on Lab: Book Review Application**](#ch4-5)
 >### 4.6 [**Module 4 Summary**](#ch4-6)
 
-## [**Course Wrap-Up**]
+## 5. [**Course Wrap-Up**](ch5)
 >### 5.1 [**Congratulations & Next Steps**](#ch5-1)
 >### 5.2 [**Thanks, from the Coursera Team**](#ch5-2)
 
