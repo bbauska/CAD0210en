@@ -1,26 +1,19 @@
-<h2 align="center">CAD0210en - IBM Skills Network</h2>
-<!------------------------------------------------------------------------------------------------>
-<!------------------------------- readme.md in CAD0210en.bauska.org ------------------------------>
-<!------------------------------------------------------------------------------------------------>
-<!----------------------------------------- 01. ibm logo ----------------------------------------->
-<!------------------------------------------------------------------------------------------------>
-<p align="center" width="100%">
-<img src="/images/image001.png?raw=true"
-   alt="IBM logo"
-   width="25%" />
-&nbsp;
-<h2 align="center">Front-End Application Development with React</h2>
+<h6>readme.md</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ cad0210en - ibm/edx.org f-e appl'n dev with react ~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h1>CAD0210en</h1>
+
+<h2 align="center">Front-End Application Development with React - ibm and edx.org</h2>
+
 <a href="https://learning.edx.org/course/course-v1:IBM+CAD0210EN+3T2022/block-v1:IBM+CAD0210EN+3T2022+type@sequential+block@86a76b2ee03e41c9b4ab237824de84e3/block-v1:IBM+CAD0210EN+3T2022+type@vertical+block@1651a0e258694b6eb43c58d6a413d12c">EDx/IBM CAD0210en Front-End Application Development with React</a>
 
 <h2>edX &amp; IBM CAD0210en Front-End Application Development with React</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 02. ibm skills network logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 01. ibm skills network logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image002.png?raw=true"
+<img src="./images/image001.png?raw=true"
   alt="IBM skills network logo."
   width="25%" />
 </p>
@@ -111,7 +104,9 @@ HTML, CSS, and JavaScript course before starting this course.
 
 -   Computer and IT literacy. 
 
-## [**Module 1: Building Rich Front-End Applications with React and ES6**]
+## [Table of Contents](#table-of-contents)
+
+## 1. [**Module 1: Building Rich Front-End Applications with React and ES6**](#ch1)
 >### 1.1 [**Module 1 Introduction & Learning Objectives**](#ch1-1)
 >### 1.2 [**Introduction to Frontend Frameworks and React JS**](#ch1-2)
 >### 1.3 [**Insiders Viewpoints: Front-end and React JS**](#ch1-3)
@@ -123,7 +118,7 @@ HTML, CSS, and JavaScript course before starting this course.
 >### 1.10 [**Cheatsheet - Building a Rich Front-End Application using React and ES6**](#ch1-10)
 >### 1.11 [**Module 1 Summary**](#ch1-11)
 
-## [**Module 2: React Components**]
+## 2. [**Module 2: React Components**]
 >### 2.1 [**Module 2 Introduction & Learning Objectives**](#ch2-1)
 >### 2.2 [**Introduction to States**](#ch2-2)
 >### 2.3 [**Passing Data and States Between Components**](#ch2-3)
@@ -135,7 +130,7 @@ HTML, CSS, and JavaScript course before starting this course.
 >### 2.9 [**Glossary: React Components**](#ch2-9)
 >### 2.10 [**Cheatsheet: React Components**](#ch2-10)
 
-## [**Module 3: Advanced React**]
+## 3. [**Module 3: Advanced React**]
 >### 3.1 [**Module 3 Introduction & Learning Objectives**](#ch3-1)
 >### 3.2 [**Hooks**](#ch3-2)
 >### 3.3 [**Implementing Forms**](#ch3-3)
@@ -148,7 +143,7 @@ HTML, CSS, and JavaScript course before starting this course.
 >### 3.10 [**Glossary: Advanced React**](#ch3-10)
 >### 3.11 [**Cheatsheet: Advanved React**](#ch3-11)
 
-## [**Module 4: Final Project**]
+## 4. [**Module 4: Final Project**]
 >### 4.1 [**Module 4 Introduction & Learning Objectives**](#ch4-1)
 >### 4.2 [**Hands-on Lab: Friends List Application Using Express Server with JNT**](#ch4-2)
 >### 4.3 [**Project Overview: Scenario and Review Criteria**](#ch4-3)
