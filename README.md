@@ -1,19 +1,26 @@
-<h6>readme.md</h6>
+<h2 align="center">CAD0210en - IBM Skills Network</h2>
+<!------------------------------------------------------------------------------------------------>
+<!------------------------------- readme.md in CAD0210en.bauska.org ------------------------------>
+<!------------------------------------------------------------------------------------------------>
+<!----------------------------------------- 01. ibm logo ----------------------------------------->
+<!------------------------------------------------------------------------------------------------>
+<p align="center" width="100%">
+<img src="/images/image001.png?raw=true"
+   alt="IBM logo"
+   width="25%" />
+&nbsp;
+<h2 align="center">Front-End Application Development with React</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~ cad0210en - ibm/edx.org f-e appl'n dev with react ~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h1>CAD0210en</h1>
-
-<h2 align="center">Front-End Application Development with React - ibm and edx.org</h2>
-
 <a href="https://learning.edx.org/course/course-v1:IBM+CAD0210EN+3T2022/block-v1:IBM+CAD0210EN+3T2022+type@sequential+block@86a76b2ee03e41c9b4ab237824de84e3/block-v1:IBM+CAD0210EN+3T2022+type@vertical+block@1651a0e258694b6eb43c58d6a413d12c">EDx/IBM CAD0210en Front-End Application Development with React</a>
 
 <h2>edX &amp; IBM CAD0210en Front-End Application Development with React</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 01. ibm skills network logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 02. ibm skills network logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image001.png?raw=true"
+<img src="./images/image002.png?raw=true"
   alt="IBM skills network logo."
   width="25%" />
 </p>
