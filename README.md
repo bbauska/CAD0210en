@@ -954,15 +954,18 @@ In this section, you learned that:
 
 Welcome to introduction to JSX
 
-After reading this section, you will be able to
+After reading this section, you will be able to;
 
--   Explain what JSX is,
+<ul>
+<li>Explain what JSX is,</li>
 
--   Describe the JSX syntax and how it is compiled,
+<li>Describe the JSX syntax and how it is compiled,</li>
 
--   Describe the benefits of using JSX, and
+<li>Describe the benefits of using JSX, and</li>
 
--   Explain how to create a React component using JSX.
+<li>Explain how to create a React component using JSX.</li>
+</ul>
+
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 36. what is jsx (javascript syntax extension)? (35) ~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1105,11 +1108,11 @@ prevent attacks such as cross-site scripting.
 Let's make a React component using JSX and see how it translates to
 regular JavaScript function calls.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 43.  (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 43. react code example (40) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image043.png?raw=true"
-  alt="."
+  alt="React Code Example."
   width="50%" />
 </p>
 <!-- ![](./images/image043.png){width="6.5in" height="3.65625in"} -->
@@ -1120,7 +1123,7 @@ element with a list of two items that displays Items number 1 and 2.
 The App function contains code which looks extremely similar to plain
 HTML and uses the same XML-based syntax.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 44.  (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 44. react example, cont'd (41) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image044.png?raw=true"
@@ -1153,32 +1156,34 @@ In this section you learned that:
 
 # Introduction to Components (6:36)
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 45.  (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 45. components: what you will learn (42) ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image045.png?raw=true"
-  alt="."
+  alt="Components: What You Will Learn."
   width="50%" />
 </p>
 <!-- ![](./images/image045.png){width="6.5in" height="3.65625in"} -->
 
 Welcome to Introduction to Components.
 
-After reading this section, you will be able to
+After reading this section, you will be able to;
 
--   Explain what React components are,
+<ul>
+<li>Explain what React components are,</li>
 
--   Describe the features of React components,
+<li>Describe the features of React components,</li>
 
--   Compare and contrast the four types of components, and
+<li>Compare and contrast the four types of components, and</li>
 
--   Create a Hello World React component.
+<li>Create a Hello World React component.</li>
+</ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 46.  (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 46. what is a component? (43) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image046.png?raw=true"
-  alt="."
+  alt="What is a Component?"
   width="50%" />
 </p>
 <!-- ![](./images/image046.png){width="5.0in" height="2.8125in"} -->
@@ -1190,11 +1195,11 @@ of pieces called components.
 
 Components make the task of building user interface easier.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 47.  (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 47. components: every application in react (43) ~~~~~~~~~~~~~~~~~~~~~~~->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image047.png?raw=true"
-  alt="."
+  alt="In React, Components comprise every application written."
   width="50%" />
 </p>
 <!-- ![](./images/image047.png){width="5.0in" height="2.8125in"} -->
@@ -1211,11 +1216,11 @@ These can then be reused and handled independently.
 A React component takes an optional input and returns a React
 object which is rendered on the screen.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 48. features of react component (40) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 48. features of react components (44) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image048.png?raw=true"
-  alt="."
+  alt="Features of React Components."
   width="50%" />
 </p>
 <!-- ![](./images/image048.png){width="5.0in" height="2.8125in"} -->
@@ -1229,11 +1234,11 @@ interface and update it whenever its internal state is modified.
 In addition to rendering the UI, it manages the events that belong to
 its user interface, such as a button component which has a click event.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 49.  (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 49. what is a state of component? (45) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image049.png?raw=true"
-  alt="."
+  alt="What is a State of Component?"
   width="50%" />
 </p>
 <!-- ![](./images/image049.png){width="5.0in" height="2.8125in"} -->
@@ -1248,11 +1253,11 @@ A stateful component updates its UI with respect to its state.
 "Stateful" components are of the class type, while "stateless"
 components are of the function type.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 50.  (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 50. workings of a component (46) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image050.png?raw=true"
-  alt="."
+  alt="Workings of a Component: Properties, Events &amp; States."
   width="50%" />
 </p>
 <!-- ![](./images/image050.png){width="5.0in" height="2.8125in"} -->
@@ -1271,11 +1276,11 @@ States enable the component to stay stateful and update the UI with
 respect to the current state of the component.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 51.  (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 51. types of react components (47) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image051.png?raw=true"
-  alt="."
+  alt="Types of React Components."
   width="50%" />
 </p>
 <!-- ![](./images/image051.png){width="5.0in" height="2.8125in"} -->
@@ -1284,11 +1289,11 @@ In React, there are mainly Functional, Class, Pure, and High-order
 components.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 52.  (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 52. type: functional react components (47) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image052.png?raw=true"
-  alt="."
+  alt="Functional React Components."
   width="50%" />
 </p>
 <!-- ![](./images/image052.png){width="5.0in" height="2.8125in"} -->
@@ -1315,11 +1320,11 @@ They are easy to read, debug, and test.
 
 Functional components are stateless.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 53.  (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~ 53. code example: stateless functional component (48) ~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image053.png?raw=true"
-  alt="."
+  alt="Stateless Functional Component example."
   width="50%" />
 </p>
 <!-- ![](./images/image053.png){width="5.0in" height="2.8125in"} -->
@@ -1331,11 +1336,11 @@ This code example shows a valid functional component in React.
 
 In the code, the function Democomponent returns 'Welcome Message'.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 54.  (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 54. react class components (49) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image054.png?raw=true"
-  alt="."
+  alt="Class Components."
   width="50%" />
 </p>
 <!-- ![](./images/image054.png){width="5.0in" height="2.8125in"} -->
@@ -1358,11 +1363,11 @@ methods.
 Class components are stateful. This means they have a state that can be
 re-rendered.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 55.  (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 55. class component example (49) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image055.png?raw=true"
-  alt="."
+  alt="Class Component example."
   width="50%" />
 </p>
 <!-- ![](./images/image055.png){width="5.0in" height="2.8125in"} -->
