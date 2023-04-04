@@ -3340,13 +3340,13 @@ course, you know:
 ![https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0210EN-SkillsNetwork/CheatSheets/images/IDSNlogo.png](./images/image091.png){width="3.125in" height="1.0833333333333333in"}
 
 <b>React components</b>
-<h2><b>Module 2 React components</b></h2>
+<h2>Module 2 React components</h2>
 
-| ----- | - | ---------------------------- | - | ---------------------------- |
-| <b>P   |   | <b>Description</b>              | * |                              |
+| ----- | - | ---------------------------- | ------------- | ---------------------------- |
+| P   |   | Description              | * |                              |
 | ackag |   |                              | * |                              |
 | e/Met |   |                              | C |                              |
-| hod</b> |   |                              | o |                              |
+| hod |   |                              | o |                              |
 |       |   |                              | d |                              |
 |       |   |                              | e |                              |
 |       |   |                              | E |                              |
