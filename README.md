@@ -3196,8 +3196,17 @@ course, you know:
     preferred approaches are by using Jest and React Testing Library.
 
 <h2>Glossary - React Components</h2>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 91. image (1xx) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image91.png?raw=true"
+  alt="."
+  width="31%" />
+</p>
+<!--
 ![https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0210EN-SkillsNetwork/Glossary/images/IDSN-new-logo\_\_1\_.png](./images/image091.png){width="3.125in" height="1.0833333333333333in"}
+-->
 
 <h3>Developing Cloud Applications with React</h3>
 
@@ -4646,9 +4655,19 @@ you built using react in the practice project.
 In this project, you will be given tasks to complete and render them
 into your budget allocation app. The completed Budget Allocation
 application page should look like the image below:
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 101. completed budget allocation app page (1xx) ~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image101.png?raw=true"
+  alt="Completed budget allocation app."
+  width="67%" />
+</p>
 
-![https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0210EN-SkillsNetwork/labs/Final%20project-budget%20app/images/finalbudget.png](./images/image101.png){width="6.885416666666667in"
-height="3.3645833333333335in"}
+<!-- ![https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0210EN-SkillsNetwork/labs/Final%20project-budget%20app/images/finalbudget.png](./images/image101.png)
+-->
+
+{width="6.885416666666667in" height="3.3645833333333335in"}
 
 <h3>Review Criteria:</h3>
 
@@ -4804,7 +4823,7 @@ Coming soon! IBM will soon offer a professional certificate program specifically
 
 We encourage you to leave your feedback and rate this course so that we can continue to improve the course content.
 
-<h6>Last Updated 3-13-2023 1:14pm</h6>
+<h6>Last Updated 4-16-2023 1:59am</h6>
 <br>
 <h6>... the end</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
