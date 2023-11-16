@@ -18,7 +18,9 @@
 <!-- width="3.0in" height="1.6875in"} -->
 &nbsp;
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>Welcome to Front-End Application Development with React</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 In this course, you will focus on client-side JavaScript and frameworks
 development with React. 
@@ -167,8 +169,9 @@ HTML, CSS, and JavaScript course before starting this course.
 -   Employ and work with various React concepts and features including
     props, states, hooks, forms, and Redux.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch1-1">1.1. Module Introduction</h2>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 As you become more proficient with JavaScript, you will find that it is
 a very dynamic language and looks different from the typical
 object-oriented languages. Now you will discover new features that make
@@ -191,6 +194,7 @@ components and change their properties and states in a dynamic UI.  
 -   Describe how to set and access properties in functional and class
     components
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch1-2">1.2.Introduction to Frontend Frameworks and React (6:42)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 02. intro to front-end frameworks & react (05) ~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -499,7 +503,9 @@ In this section, you learned that:
 
 -   With Create React App, you can easily create a React application.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch1-3">1.3. Insiders Viewpoints: Front-end Frameworks (3:09)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Welcome to Expert Viewpoints: Using Front-end JavaScript Frameworks.
 
@@ -563,7 +569,9 @@ for some student projects.
 And fortunately, I\'ve never had to go into it any deeper than just
 editing existing code.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch1-4">1.4.Introduction to ES6 (6:46)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Welcome to Introduction to ES6.
 
@@ -950,7 +958,9 @@ In this section, you learned that:
 </p>
 <!-- ![](./images/image035.png){width="3.0in" height="1.6979166666666667in"} -->
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch1-5">1.5.Introduction to JSX (5:13)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Welcome to introduction to JSX
 
@@ -1656,7 +1666,7 @@ You will see the page render with the message "Hello World".
 </p>
 <!-- ![](./images/image064.png){width="5.0in" height="2.7708333333333335in"} -->
 
-# Working with React Components - Props and Event Handling (5:43)
+## Working with React Components - Props and Event Handling (5:43)
 
 Welcome to Working with React Components.
 
@@ -1804,7 +1814,6 @@ Functional components are most useful when the component has properties
 
 The properties can be user defined and are passed as parameters to the
 function.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 74.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1843,7 +1852,6 @@ The onClick handler is the most used for functional components, but the
 React component supports other event handlers, too.
 
 They can be set the same way that onClick is set.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 76.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1858,7 +1866,6 @@ In this example, you can see which properties are being set to the App
 component.
 
 Here you are setting the handler to the property clickEvent.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 77.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1867,7 +1874,7 @@ Here you are setting the handler to the property clickEvent.
   alt="."
   width="50%" />
 </p>
-![](./images/image077.png){width="5.0in" height="2.8125in"}
+<!-- ![](./images/image077.png){width="5.0in" height="2.8125in"} -->
 
 The App component will use the clickEvent property to handle the event.
 
@@ -1876,7 +1883,6 @@ button is clicked.
 
 When you run the React application with just the App component, the page
 renders with the button.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 78.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1885,7 +1891,7 @@ renders with the button.
   alt="."
   width="30%" />
 </p>
-![](./images/image078.png){width="3.0in" height="1.6875in"}
+<!-- ![](./images/image078.png){width="3.0in" height="1.6875in"} -->
 
 When you click the button, the event handler that you set through the
 property handles the click event and the method that you passed is
@@ -2096,7 +2102,9 @@ In this section you learned that:
 
 ## Developing Cloud Applications with React
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch1-9>1.9. Module 1 : Glossary - Building a Rich Front-End Application using REACT & ES6</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
   -----------------------------------------------------------------------
   <b>Term</b>                            <b>Definition</b>
@@ -2210,7 +2218,6 @@ In this section you learned that:
 
   this                                Keyword that refers to the current
                                       object.
-  -----------------------------------------------------------------------
 
 ### © IBM Corporation 2022. All rights reserved.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2415,7 +2422,9 @@ In this section you learned that:
 
 ### © IBM Corporation 2022. All rights reserved.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch1-11">1.11. Module 1 Summary</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Congratulations! You have completed this module. At this point in the
 course, you know:
@@ -2439,9 +2448,11 @@ course, you know:
 
 -   Class components are more versatile.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2">Module 2 Introduction and Learning Objectives</h2>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-1">2.1. Module Introduction</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 How do you think data is managed in React? Changes in the component data
 are managed using state and props in a React application. In addition,
@@ -2472,7 +2483,9 @@ You will;
 
 -   Describe the different approaches and tools of component testing.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-2">2.2. Introduction to States (6:14)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Welcome to Introduction to States.
 
@@ -2716,7 +2729,9 @@ React components in a uni-directional flow from parent to child.
 Components can create and manage their own data with state, whereas they
 receive data from outside with props.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-3">2.3 Passing Data and States Between Components (6:54 )</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Welcome to Passing Data and States between Components.
 
@@ -2901,7 +2916,9 @@ In this section you learned that:
     child using properties, from child to parent using callbacks, and
     between siblings.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-4">2.4 Components Lifecycle (4:46)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Welcome to Components Lifecycle.
 
@@ -3027,7 +3044,9 @@ This is referred to as a component lifecycle.
 -   And, the unmounting phase is the third and final phase, where the
     component is removed from the DOM.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-5">2.5 Connecting React to External Services (2:56)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Welcome to Connecting React to External Services.
 
@@ -3101,7 +3120,9 @@ In this section you learned that:
 -   You can receive and send information from a React client to an
     external server with GET, POST, UPDATE, and DELETE requests.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id ="ch2-6">2.6 Testing React Components (8:51)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Welcome to Testing React Components.
 
@@ -3310,7 +3331,9 @@ In this section, you learned that: 
     your tests by testing your components in the same way as an end user
     would use the components.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-7">2.7 Hands-on Lab: React Todo List Application</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 In this lab, you will be building TODO list application using React
 components. You will discover how to create, view, delete, complete,
@@ -3342,7 +3365,9 @@ labs virtual labs environment with instructions to complete this lab.
 Your username and email will be shared with SN Labs to authenticate and
 provision your lab environment.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-8">2.8 Module 2 Summary</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Congratulations! You have completed this module. At this point in the
 course, you know:
@@ -3380,7 +3405,9 @@ course, you know:
 
 <h3>Developing Cloud Applications with React</h3>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-9">2.9 Module 2 : Glossary - React Components</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
   ----------------------------------------------------------------------------------
   <b>Term</b>                                       <b>Definition</b>
@@ -3508,27 +3535,22 @@ course, you know:
                                                  component is removed from the page.
 
                                                  
-  ----------------------------------------------------------------------------------
 
-| ------------------------------------------------------------------ | - | - | - |
-| ### © IBM Corporation 2022. All rights reserved.                   |   |   |   |
-| ------------------------------------------------------------------ | - | - | - |
-
+### © IBM Corporation 2022. All rights reserved.
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch2-10">2.10.Cheatsheet - React Components</h2>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Changelog</h4>
 
-  ---------------------------------------------------------------------------
   <b>Date</b>       <b>Version</b>   <b>Changed by</b>       <b>Change Description</b>
-  -------------- ------------- -------------------- -------------------------
+
   20-10-2022     1.1           Sapthashree K S      Cheatsheet updated
 
-  ---------------------------------------------------------------------------
 
 <h5>© IBM Corporation 2022. All rights reserved.</h5>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch3-1">3.1 Module Introduction and Learning Objectives</h2>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>Module 3 Introduction</h3>
 
 Having problems with massive unmanageable applications? Learn about new
@@ -3552,7 +3574,9 @@ in updating of the component properties.   
 
 -   Describe data flow in Redux
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch3-2">3.2 Hooks (5:45)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Welcome to Hooks.
 
@@ -3708,7 +3732,9 @@ In this section you learned that:
 -   And finally, Custom Hooks enable you to add special and unique
     functionality to your applications.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch3-3">3.3 Implementing Forms (7:29)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Welcome to Implementing Forms.
 
@@ -3907,7 +3933,9 @@ In this section, you learned that:
 -   And React Hook forms give better performance and reduce the number
     of re-renders.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch3-4">3.4 Introduction to Redux (5:25)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Welcome to Introduction to Redux. After reading this section, you will
 be able to:
@@ -4033,7 +4061,9 @@ In this section, you learned that:
 -   And finally, Redux is used when you need to manage the state of the
     components.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch3-5">3.5 Essential Concepts of Redux (4:57)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Welcome to Essential Concepts of Redux.
 
@@ -4164,7 +4194,9 @@ In this section, you learned that:
 -   And you can subscribe to listen to events whenever the Store
     updates.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch3-6">3.6 Async with Redux (8:17)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Welcome to Async with Redux.
 
@@ -4383,7 +4415,9 @@ In this section, you learned that:
 -   Redux Thunk allows you to pass functions within your action creators
     to create an asynchronous Redux.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch3-7">3.7 Binding Redux and Flow (6:14)</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Welcome to Binding Redux and Flow.
 
@@ -4542,7 +4576,9 @@ In this section, you learned that:
 -   And, it\'s easier to manage the state when actions performed on the
     UI are separated from the changing of the state.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch3-8">3.8 Hands-on Lab: React Redux</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 In this lab, you will be building an increment counter using Redux.
 
@@ -4578,7 +4614,9 @@ labs virtual labs environment with instructions to complete this lab.
 Your username and email will be shared with SN Labs to authenticate and
 provision your lab environment.
 
-<h3 id="ch3-9">3.9 Reading: Module 3 Summary</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="ch3-9">3.9 Reading: Module 3 Summary</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Congratulations! You have completed this module. At this point in the
 course, you know:
@@ -4614,7 +4652,9 @@ course, you know:
 
 <h3>Developing Cloud Applications with React</h3>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch3-10">3.10 Module 3: Glossary - Advanced React</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
   -----------------------------------------------------------------------
   <b>Term</b>                            <b>Definition</b>
@@ -4723,6 +4763,7 @@ course, you know:
 
 ### © IBM Corporation 2022. All rights reserved.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch3-11">3.11 Reading: Cheatsheet - Advanced React</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 91.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4942,7 +4983,7 @@ Provide a screenshot that shows that,
 
 ### © IBM Corporation 2022. All rights reserved.
 
-# Hands-on Lab: Final Project (Budgeting Allocation Application)
+## Hands-on Lab: Final Project (Budgeting Allocation Application)
 
 Note: Though this lab is split into multiple parts, it is highly
 recommended it is all completed in one sitting as the project
@@ -4966,8 +5007,9 @@ Clicking on the Start Lab button below will launch the cloud-based SN
 labs virtual labs environment with instructions to complete this lab.
 Your username and email will be shared with SN Labs to authenticate and
 provision your lab environment.
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch4-6">4.6 Module 4 Summary</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Congratulations! You have completed this module. In the final project,
 you learned to create a budget allocation application using React.js.
