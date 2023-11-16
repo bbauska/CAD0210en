@@ -1274,7 +1274,6 @@ Events enable the component to manage document object model
 
 States enable the component to stay stateful and update the UI with
 respect to the current state of the component.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 51. types of react components (47) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1287,7 +1286,6 @@ respect to the current state of the component.
 
 In React, there are mainly Functional, Class, Pure, and High-order
 components.
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~ 52. type: functional react components (47) ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1469,7 +1467,7 @@ In this section you learned that:
 -   And finally, the four types of React components are Functional,
     Class, Pure, and High-order component.
 
-# Hands-on Lab: Hello World
+## Hands-on Lab: Hello World
 
 In this lab, you will be creating your first React page and your first
 React application. As the first step to learning anything new in the
@@ -1512,7 +1510,7 @@ following tasks:
 
 -   Set properties for a react component.
 
-# First React application
+## First React application
 
 1.  From the menu on top of the lab, go to the Terminal and open a new
     terminal.
@@ -1521,7 +1519,7 @@ following tasks:
     home/project directory.
 
 ```
->  $ cd /home/project
+$ cd /home/project
 ```
 
 3.  Run the following command to create a react application named
@@ -1529,7 +1527,7 @@ following tasks:
     cannot contain any uppercase letter.
 
 ```
->  $ npx create-react-app myfirstapp
+$ npx create-react-app myfirstapp
 ```
 
 4.  It requires you to confirm that the packages required can be
@@ -1540,7 +1538,7 @@ following tasks:
     that folder by running the following command.
 
 ```
->  $ cd myfirstapp
+$ cd myfirstapp
 ```
 
 6.  create-react-app creates the boiler plate code which is required for
@@ -1548,7 +1546,7 @@ following tasks:
     created, run the following command.
 
 ```
->  $ npm start
+$ npm start
 ```
 
 This will start the react development server on port 3000.
@@ -1565,7 +1563,8 @@ This will start the react development server on port 3000.
   alt="."
   width="65%" />
 </p>
-<!-- ![https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0210EN-SkillsNetwork/images/launch_app.png](./images/image060.png) {width="6.5in" height="3.78125in"} -->
+<!-- ![https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0210EN-SkillsNetwork/images/launch_app.png](./images/image060.png) {width="6.5in" height="3.78125in"} 
+-->
 
 8.  This will launch the application in a new browser tab.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1576,11 +1575,12 @@ This will start the react development server on port 3000.
   alt="."
   width="50%" />
 </p>
-<!-- ![https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0210EN-SkillsNetwork/labs/module1/images/react_page.png](./images/image061.png){width="5.0in" height="2.6666666666666665in"} -->
+<!-- ![https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0210EN-SkillsNetwork/labs/module1/images/react_page.png](./images/image061.png){width="5.0in" height="2.6666666666666665in"} 
+-->
 
 Press Ctlr+C at the command prompt to stop the react development server.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 62.  (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 62.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image062.png?raw=true"
@@ -1594,10 +1594,10 @@ Press Ctlr+C at the command prompt to stop the react development server.
 1.  Within the src folder of the myfirstapp project folder, you will
     find <b>App.js</b> and <b>index.js</b>.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 63.  (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 63.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
-<img src="./images/image001.png?raw=true"
+<img src="./images/image063.jpeg?raw=true"
   alt="."
   width="20%" />
 </p>
@@ -1634,7 +1634,7 @@ All the styling will be removed as a result, leaving you with the basic needs.
     running the following command.
 
 ```
->  $  rm src/App.css src/App.test.js src/index.css src/logo.svg
+$  rm src/App.css src/App.test.js src/index.css src/logo.svg
         src/reportWebVitals.js src/setupTests.js
 ```
 
@@ -1642,7 +1642,7 @@ All the styling will be removed as a result, leaving you with the basic needs.
     launch and view the application on the browser.
 
 ```
->  $ npm start
+$ npm start
 ```
 
 You will see the page render with the message "Hello World".
@@ -1709,40 +1709,90 @@ An application is made up of one or more components.
 
 The components in a React application can be styled by using a className
 attribute and applying any cascading style sheets (CSS) styling to it.
-
-![](./images/image067.png){width="6.5in" height="3.65625in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 67.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image067.png?raw=true"
+  alt="."
+  width="65%" />
+</p>
+<!-- ![](./images/image067.png){width="6.5in" height="3.65625in"} -->
 
 Now you will see an example of a React application.
-
-![](./images/image068.png){width="5.21875in"
-height="7.125in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 68.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image068.png?raw=true"
+  alt="."
+  width="50%" />
+</p>
+<!-- ![](./images/image068.png){width="5.21875in" height="7.125in"} -->
 
 This application is rendering a calculator made up of components.
 
 The structure of the document object model (DOM) tree appears on the
 right.
-
-![](./images/image069.png){width="3.0in" height="1.6875in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 69.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image069.png?raw=true"
+  alt="."
+  width="30%" />
+</p>
+<!-- ![](./images/image069.png){width="3.0in" height="1.6875in"} -->
 
 The application has a div with the className \"App,\" which is the root
 component.
-
-![](./images/image070.png){width="3.0in" height="1.6875in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 70.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image070.png?raw=true"
+  alt="."
+  width="30%" />
+</p>
+<!-- ![](./images/image070.png){width="3.0in" height="1.6875in"} -->
 
 Inside App is calc_box, which is like a box holding all the buttons.
 
 In calc_box there are six div components of className button rows.
-
-![](./images/image071.png){width="3.0in" height="1.6875in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 71.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image071.png?raw=true"
+  alt="."
+  width="30%" />
+</p>
+<!-- ![](./images/image071.png){width="3.0in" height="1.6875in"} -->
 
 The first button rows div contains an input component.
 
-![](./images/image072.png){width="3.0in" height="1.6875in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 72.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image072.png?raw=true"
+  alt="."
+  width="30%" />
+</p>
+<!-- ![](./images/image072.png){width="3.0in" height="1.6875in"} -->
 
 The second, third, fourth, and fifth components each contain four button
 components.
 
-![](./images/image073.png){width="3.0in" height="1.6875in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 73.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image073.png?raw=true"
+  alt="."
+  width="30%" />
+</p>
+<!-- ![](./images/image073.png){width="3.0in" height="1.6875in"} -->
 
 The last div component contains only one button.
 
@@ -1755,7 +1805,15 @@ Functional components are most useful when the component has properties
 The properties can be user defined and are passed as parameters to the
 function.
 
-![](./images/image074.png){width="5.0in" height="2.8125in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 74.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image074.png?raw=true"
+  alt="."
+  width="50%" />
+</p>
+<!-- ![](./images/image074.png){width="5.0in" height="2.8125in"} -->
 
 In this example, you are setting the component\'s size and color.
 
@@ -1766,7 +1824,15 @@ Properties cannot have uppercase characters.
 When you run the React application with just the App component, the page
 will render like this.
 
-![](./images/image075.png){width="5.0in" height="2.8125in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 75.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image075.png?raw=true"
+  alt="."
+  width="50%" />
+</p>
+<!-- ![](./images/image075.png){width="5.0in" height="2.8125in"} -->
 
 You can see that the properties that you passed have been used to style
 the component.
@@ -1778,13 +1844,29 @@ React component supports other event handlers, too.
 
 They can be set the same way that onClick is set.
 
-![](./images/image076.png){width="5.0in" height="2.8125in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 76.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image076.png?raw=true"
+  alt="."
+  width="50%" />
+</p>
+<!-- ![](./images/image076.png){width="5.0in" height="2.8125in"} -->
 
 In this example, you can see which properties are being set to the App
 component.
 
 Here you are setting the handler to the property clickEvent.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 77.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image077.png?raw=true"
+  alt="."
+  width="50%" />
+</p>
 ![](./images/image077.png){width="5.0in" height="2.8125in"}
 
 The App component will use the clickEvent property to handle the event.
@@ -1795,17 +1877,40 @@ button is clicked.
 When you run the React application with just the App component, the page
 renders with the button.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 78.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image078.png?raw=true"
+  alt="."
+  width="30%" />
+</p>
 ![](./images/image078.png){width="3.0in" height="1.6875in"}
 
 When you click the button, the event handler that you set through the
 property handles the click event and the method that you passed is
 invoked.
-
-![](./images/image079.png){width="3.0in" height="1.6875in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 79.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image079.png?raw=true"
+  alt="."
+  width="30%" />
+</p>
+<!-- ![](./images/image079.png){width="3.0in" height="1.6875in"} -->
 
 You can see the alert box.
 
-![](./images/image080.png){width="5.0in" height="2.8125in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 80.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image080.png?raw=true"
+  alt="."
+  width="50%" />
+</p>
+<!-- ![](./images/image080.png){width="5.0in" height="2.8125in"} -->
 
 Class components are preferred more than functional components because
 of their versatility.
@@ -1818,17 +1923,38 @@ These components have a lifecycle that can be managed and maintained.
 
 This is how you can create a class component instead of a functional
 component app.
-
-![](./images/image081.png){width="5.0in" height="2.8125in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 81.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image081.png?raw=true"
+  alt="."
+  width="50%" />
+</p>
+<!-- ![](./images/image081.png){width="5.0in" height="2.8125in"} -->
 
 You may recall that you need to inherit the class component from the
 React module.
-
-![](./images/image082.png){width="5.0in" height="2.8125in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 82.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image082.png?raw=true"
+  alt="."
+  width="50%" />
+</p>
+<!-- ![](./images/image082.png){width="5.0in" height="2.8125in"} -->
 
 To do this you import the React module.
-
-![](./images/image083.png){width="5.0in" height="2.8125in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 83.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image083.png?raw=true"
+  alt="."
+  width="50%" />
+</p>
+<!-- ![](./images/image083.png){width="5.0in" height="2.8125in"} -->
 
 Then you create the App class which extends or inherits from
 React.Component.
@@ -1844,8 +1970,15 @@ object.
 
 In the case of the React component, the constructor in the derived class
 must call the super constructor.
-
-![](./images/image084.png){width="5.0in" height="2.8125in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 84.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image084.png?raw=true"
+  alt="."
+  width="50%" />
+</p>
+<!-- ![](./images/image084.png){width="5.0in" height="2.8125in"} -->
 
 You override the render method.
 
@@ -1859,33 +1992,68 @@ You don't have to make any changes in the index.js file where the
 component is actually instantiated.
 
 The output is the same as you saw before for the functional component.
-
-![](./images/image085.png){width="5.0in" height="2.8125in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 85.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image085.png?raw=true"
+  alt="."
+  width="50%" />
+</p>
+<!-- ![](./images/image085.png){width="5.0in" height="2.8125in"} -->
 
 Props are set from outside the class.
 
 State is internal to the class.
 
 Every time the state changes, the component rerenders.
-
-![](./images/image086.png){width="5.0in" height="2.8125in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 86.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image086.png?raw=true"
+  alt="."
+  width="50%" />
+</p>
+<!-- ![](./images/image086.png){width="5.0in" height="2.8125in"} -->
 
 Here, you define the state counter of the component App.
 
 This state will change.
-
-![](./images/image087.png){width="5.0in" height="2.8125in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 87.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image087.png?raw=true"
+  alt="."
+  width="50%" />
+</p>
+<!-- ![](./images/image087.png){width="5.0in" height="2.8125in"} -->
 
 Here you define a method, incrementCounter, which increments the counter
 value by 1.
-
-![](./images/image088.png){width="5.0in" height="2.8125in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 88.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image088.png?raw=true"
+  alt="."
+  width="50%" />
+</p>
+<!-- ![](./images/image088.png){width="5.0in" height="2.8125in"} -->
 
 With the onClick of the button, the incrementCounter method is called.
 
 The state is updated, and the component is rendered again.
-
-![](./images/image089.png){width="4.0in" height="2.25in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 89.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image089.png?raw=true"
+  alt="."
+  width="40%" />
+</p>
+<!-- ![](./images/image089.png){width="4.0in" height="2.25in"} -->
 
 Every time the state changes, the component rerenders.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1921,9 +2089,10 @@ In this section you learned that:
 <p align="center" width="100%">
 <img src="./images/image091.png?raw=true"
   alt="Skills network."
-  width="31%" />
+  width="30%" />
 </p>
-<!-- ![https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0210EN-SkillsNetwork/Glossary/images/IDSN-new-logo\_\_1\_.png](./images/image091.png){width="3.125in" height="1.0833333333333333in"} -->
+<!-- ![https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0210EN-SkillsNetwork/Glossary/images/IDSN-new-logo\_\_1\_.png](./images/image091.png){width="3.125in" height="1.0833333333333333in"} 
+-->
 
 ## Developing Cloud Applications with React
 
@@ -2050,9 +2219,10 @@ In this section you learned that:
 <p align="center" width="100%">
 <img src="./images/image091.png?raw=true"
   alt="Skills network."
-  width="31%" />
+  width="30%" />
 </p>
-<!-- ![https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0210EN-SkillsNetwork/CheatSheets/images/IDSNlogo.png](./images/image091.png){width="3.125in" height="1.0833333333333333in"} -->
+<!-- ![https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0210EN-SkillsNetwork/CheatSheets/images/IDSNlogo.png](./images/image091.png){width="3.125in" height="1.0833333333333333in"} 
+-->
 
 <h2 id="ch1-10">1.10. Module 1 Cheatsheet - Building a Rich Front-End Application using REACT & ES6</h2>
 
@@ -4439,7 +4609,8 @@ course, you know:
   alt="IBM Skills network logo."
   width="25%" />
 </p>
-<!-- ![https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0210EN-SkillsNetwork/Glossary/images/IDSN-new-logo\_\_1\_.png](./images/image091.png){width="3.125in" height="1.0833333333333333in"} -->
+<!-- ![https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0210EN-SkillsNetwork/Glossary/images/IDSN-new-logo\_\_1\_.png](./images/image091.png){width="3.125in" height="1.0833333333333333in"} 
+-->
 
 <h3>Developing Cloud Applications with React</h3>
 
@@ -4552,10 +4723,7 @@ course, you know:
 
 ### © IBM Corporation 2022. All rights reserved.
 
-# 
-
 <h2 id="ch3-11">3.11 Reading: Cheatsheet - Advanced React</h2>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 91.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4564,7 +4732,8 @@ course, you know:
   alt="image091."
   width="30%" />
 </p>
-<!-- ![https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0210EN-SkillsNetwork/CheatSheets/images/IDSNlogo.png](./images/image091.png){width="3.125in" height="1.0833333333333333in"} -->
+<!-- ![https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0210EN-SkillsNetwork/CheatSheets/images/IDSNlogo.png](./images/image091.png){width="3.125in" height="1.0833333333333333in"} 
+-->
 
 <b>Advanced React</b>
 <b>Module 3 Advanced React</b>
@@ -4667,8 +4836,6 @@ application page should look like the image below:
 <!-- ![https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0210EN-SkillsNetwork/labs/Final%20project-budget%20app/images/finalbudget.png](./images/image101.png)
 -->
 
-{width="6.885416666666667in" height="3.3645833333333335in"}
-
 <h3>Review Criteria:</h3>
 
 <b>1:</b> Budget allocation validation. <b>(2 pts)</b>
@@ -4699,7 +4866,8 @@ application:
   alt="Form label field currency."
   width="67%" />
 </p>
-<!-- ![https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0210EN-SkillsNetwork/labs/Final%20project-budget%20app/images/task_1.PNG](./images/image102.png){width="6.635416666666667in" height="0.8020833333333334in"} -->
+<!-- ![https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0210EN-SkillsNetwork/labs/Final%20project-budget%20app/images/task_1.PNG](./images/image102.png){width="6.635416666666667in" height="0.8020833333333334in"} 
+-->
 
 <b>3:</b> Dropdown to change currency <b>(4 pts)</b>
 
@@ -4823,7 +4991,7 @@ Coming soon! IBM will soon offer a professional certificate program specifically
 
 We encourage you to leave your feedback and rate this course so that we can continue to improve the course content.
 
-<h6>Last Updated 4-16-2023 1:59am</h6>
+<h6>Last Updated 11-15-2023 8:01pm</h6>
 <br>
 <h6>... the end</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
