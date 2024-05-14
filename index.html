@@ -2,170 +2,17 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
 <head>
   <meta charset="utf-8" />
-  <meta name="generator" content="pandoc" />
+  <link rel="shortcut icon" type="image/jpg" href="./images/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="Brian Bauska (bbauska)" />
+  <meta name="title" content="CAD0210en - Front-end App Development with React" />
+  <meta name="description" content="CAD0210en - Front-end App Development with 
+    React: In this course, you will focus on client-side JavaScript and frameworks 
+	development with React." />
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>CAD0210en - F-E App Dev w/React</title>
-  <style>
-    html {
-      color: #1a1a1a;
-      background-color: #fdfdfd;
-    }
-    body {
-      margin: 0 auto;
-      max-width: 36em;
-      padding-left: 50px;
-      padding-right: 50px;
-      padding-top: 50px;
-      padding-bottom: 50px;
-      hyphens: auto;
-      overflow-wrap: break-word;
-      text-rendering: optimizeLegibility;
-      font-kerning: normal;
-    }
-    @media (max-width: 600px) {
-      body {
-        font-size: 0.9em;
-        padding: 12px;
-      }
-      h1 {
-        font-size: 1.8em;
-      }
-    }
-    @media print {
-      html {
-        background-color: white;
-      }
-      body {
-        background-color: transparent;
-        color: black;
-        font-size: 12pt;
-      }
-      p, h2, h3 {
-        orphans: 3;
-        widows: 3;
-      }
-      h2, h3, h4 {
-        page-break-after: avoid;
-      }
-    }
-    p {
-      margin: 1em 0;
-    }
-    a {
-      color: #1a1a1a;
-    }
-    a:visited {
-      color: #1a1a1a;
-    }
-    img {
-      max-width: 100%;
-    }
-    h1, h2, h3, h4, h5, h6 {
-      margin-top: 1.4em;
-    }
-    h5, h6 {
-      font-size: 1em;
-      font-style: italic;
-    }
-    h6 {
-      font-weight: normal;
-    }
-    ol, ul {
-      padding-left: 1.7em;
-      margin-top: 1em;
-    }
-    li > ol, li > ul {
-      margin-top: 0;
-    }
-    blockquote {
-      margin: 1em 0 1em 1.7em;
-      padding-left: 1em;
-      border-left: 2px solid #e6e6e6;
-      color: #606060;
-    }
-    code {
-      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
-      font-size: 85%;
-      margin: 0;
-      hyphens: manual;
-    }
-    pre {
-      margin: 1em 0;
-      overflow: auto;
-    }
-    pre code {
-      padding: 0;
-      overflow: visible;
-      overflow-wrap: normal;
-    }
-    .sourceCode {
-     background-color: transparent;
-     overflow: visible;
-    }
-    hr {
-      background-color: #1a1a1a;
-      border: none;
-      height: 1px;
-      margin: 1em 0;
-    }
-    table {
-      margin: 1em 0;
-      border-collapse: collapse;
-      width: 100%;
-      overflow-x: auto;
-      display: block;
-      font-variant-numeric: lining-nums tabular-nums;
-    }
-    table caption {
-      margin-bottom: 0.75em;
-    }
-    tbody {
-      margin-top: 0.5em;
-      border-top: 1px solid #1a1a1a;
-      border-bottom: 1px solid #1a1a1a;
-    }
-    th {
-      border-top: 1px solid #1a1a1a;
-      padding: 0.25em 0.5em 0.25em 0.5em;
-    }
-    td {
-      padding: 0.125em 0.5em 0.25em 0.5em;
-    }
-    header {
-      margin-bottom: 4em;
-      text-align: center;
-    }
-    #TOC li {
-      list-style: none;
-    }
-    #TOC ul {
-      padding-left: 1.3em;
-    }
-    #TOC > ul {
-      padding-left: 0;
-    }
-    #TOC a:not(:hover) {
-      text-decoration: none;
-    }
-    code{white-space: pre-wrap;}
-    span.smallcaps{font-variant: small-caps;}
-    div.columns{display: flex; gap: min(4vw, 1.5em);}
-    div.column{flex: auto; overflow-x: auto;}
-    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    /* The extra [class] is a hack that increases specificity enough to
-       override a similar rule in reveal.js */
-    ul.task-list[class]{list-style: none;}
-    ul.task-list li input[type="checkbox"] {
-      font-size: inherit;
-      width: 0.8em;
-      margin: 0 0.8em 0.2em -1.6em;
-      vertical-align: middle;
-    }
-    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
-  </style>
-  <!--[if lt IE 9]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
-  <![endif]-->
+  <link rel="stylesheet" type="text/css" href="./css/styles.css">
 </head>
 <body>
 
@@ -174,9 +21,7 @@
 <!--~~~~~~~~~~~~~~~~~~~~ cad0210en - ibm/edx.org f-e appl'n dev with react ~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 align="center">Front-End Application Development with React - ibm and edx.org</h2>
-<!--
-<a href="https://learning.edx.org/course/course-v1:IBM+CAD0210EN+3T2022/block-v1:IBM+CAD0210EN+3T2022+type@sequential+block@86a76b2ee03e41c9b4ab237824de84e3/block-v1:IBM+CAD0210EN+3T2022+type@vertical+block@1651a0e258694b6eb43c58d6a413d12c">EDx/IBM CAD0210en Front-End Application Development with React</a>
--->
+
 <h2 align="center">edX &amp; IBM CAD0210en Front-End Application Development with React</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 01. ibm skills network logo (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -184,9 +29,8 @@
 <p align="center" width="100%">
 <img src="./images/image001.png?raw=true"
   alt="IBM skills network logo."
-  width="25%" />
+  style="width:25%" />
 </p>
-<!-- width="3.0in" height="1.6875in"} -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>Welcome to Front-End Application Development with React</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -226,6 +70,7 @@ peer group through discussion forums.</p>
 
 <p>React is one of the most popular frameworks in the Web and Front-end
 application Development category.</p>
+
 <p>In this course, you will;</p>
 
 <ul>
@@ -268,45 +113,45 @@ HTML, CSS, and JavaScript course before starting this course.</p>
 <h2>1. <a href="#ch1"><strong>Module 1: Building Rich Front-End Applications with React and ES6</strong></a></h2>
 
 <blockquote>
-<h3>1.1 <a href="#ch1-1"><strong>Module 1 Introduction &amp; Learning Objectives</strong></a></h3>
-<h3>1.2 <a href="#ch1-2"><strong>Introduction to Frontend Frameworks and React JS</strong></a></h3>
-<h3>1.3 <a href="#ch1-3"><strong>Insiders Viewpoints: Front-end and React JS</strong></a></h3>
-<h3>1.5 <a href="#ch1-5"><strong>Introduction to JSX</strong></a></h3>
-<h3>1.6 <a href="#ch1-6"><strong>Hands-on Lab: Hello World with React</strong></a></h3>
-<h3>1.7 <a href="#ch1-7"><strong>Introduction to Components</strong></a></h3>
-<h3>1.8 <a href="#ch1-8"><strong>Working with React Components</strong></a></h3>
-<h3>1.9 <a href="#ch1-9"><strong>Glossary - Building a Rich Front-End Application using React and ES6</strong></a></h3>
-<h3>1.10 <a href="#ch1-10"><strong>Cheatsheet - Building a Rich Front-End Application using React and ES6</strong></a></h3>
-<h3 id="module-1-summary">1.11 <a href="#ch1-11"><strong>Module 1 Summary</strong></a></h3>
+  <h3>1.01 <a href="#ch1-01"><strong>Module 1 Introduction &amp; Learning Objectives</strong></a></h3>
+  <h3>1.02 <a href="#ch1-02"><strong>Introduction to Frontend Frameworks and React JS</strong></a></h3>
+  <h3>1.03 <a href="#ch1-03"><strong>Insiders Viewpoints: Front-end and React JS</strong></a></h3>
+  <h3>1.04 <a href="#ch1-04"><strong>Introduction to JSX</strong></a></h3>
+  <h3>1.05 <a href="#ch1-05"><strong>Hands-on Lab: Hello World with React</strong></a></h3>
+  <h3>1.06 <a href="#ch1-06"><strong>Introduction to Components</strong></a></h3>
+  <h3>1.07 <a href="#ch1-07"><strong>Working with React Components</strong></a></h3>
+  <h3>1.08 <a href="#ch1-08"><strong>Glossary - Building a Rich Front-End Application using React and ES6</strong></a></h3>
+  <h3>1.09 <a href="#ch1-09"><strong>Cheatsheet - Building a Rich Front-End Application using React and ES6</strong></a></h3>
+  <h3>1.10 <a href="#ch1-10"><strong>Module 1 Summary</strong></a></h3>
 </blockquote>
 
 <h2>2. <a href="#ch2"><strong>Module 2: React Components</strong></a></h2>
 
 <blockquote>
-<h3>2.1 <a href="#ch2-1"><strong>Module 2 Introduction &amp; Learning Objectives</strong></a></h3>
-<h3>2.2 <a href="#ch2-2"><strong>Introduction to States</strong></a></h3>
-<h3>2.3 <a href="#ch2-3"><strong>Passing Data and States Between Components</strong></a></h3>
-<h3>2.4 <a href="#ch2-4"><strong>Components Lifecycle</strong></a></h3>
-<h3>2.5 <a href="#ch2-5"><strong>Connecting React to External Services</strong></a></h3>
-<h3>2.6 <a href="#ch2-6"><strong>Testing React Components</strong></a></h3>
-<h3>2.7 <a href="#ch2-7"><strong>Hands-on Lab: React Todo List Application</strong></a></h3>
-<h3>2.8 <a href="#ch2-8"><strong>Reading Module 2 Summary</strong></a></h3>
-<h3>2.9 <a href="#ch2-9"><strong>Glossary: React Components</strong></a></h3>
+<h3>2.01 <a href="#ch2-01"><strong>Module 2 Introduction &amp; Learning Objectives</strong></a></h3>
+<h3>2.02 <a href="#ch2-02"><strong>Introduction to States</strong></a></h3>
+<h3>2.03 <a href="#ch2-03"><strong>Passing Data and States Between Components</strong></a></h3>
+<h3>2.04 <a href="#ch2-04"><strong>Components Lifecycle</strong></a></h3>
+<h3>2.05 <a href="#ch2-05"><strong>Connecting React to External Services</strong></a></h3>
+<h3>2.06 <a href="#ch2-06"><strong>Testing React Components</strong></a></h3>
+<h3>2.07 <a href="#ch2-07"><strong>Hands-on Lab: React Todo List Application</strong></a></h3>
+<h3>2.08 <a href="#ch2-08"><strong>Reading Module 2 Summary</strong></a></h3>
+<h3>2.09 <a href="#ch2-09"><strong>Glossary: React Components</strong></a></h3>
 <h3>2.10 <a href="#ch2-10"><strong>Cheatsheet: React Components</strong></a></h3>
 </blockquote>
 
 <h2>3. <a href="#ch3"><strong>Module 3: Advanced React</strong></a></h2>
 
 <blockquote>
-<h3>3.1 <a href="#ch3-1"><strong>Module 3 Introduction &amp; Learning Objectives</strong></a></h3>
-<h3>3.2 <a href="#ch3-2"><strong>Hooks</strong></a></h3>
-<h3>3.3 <a href="#ch3-3"><strong>Implementing Forms</strong></a></h3>
-<h3>3.4 <a href="#ch3-4"><strong>Introduction to Redux</strong></a></h3>
-<h3>3.5 <a href="#ch3-5"><strong>Essential Concepts of Redux - Stores, Procedures and Actions</strong></a></h3>
-<h3>3.6 <a href="#ch3-6"><strong>Async with Redux</strong></a></h3>
-<h3>3.7 <a href="#ch3-7"><strong>Binding Redux and Flow</strong></a></h3>
-<h3>3.8 <a href="#ch3-8"><strong>Hands-on Lab: React Redux</strong></a></h3>
-<h3>3.9 <a href="#ch3-9"><strong>Reading Module 3 Summary</strong></a></h3>
+<h3>3.01 <a href="#ch3-01"><strong>Module 3 Introduction &amp; Learning Objectives</strong></a></h3>
+<h3>3.02 <a href="#ch3-02"><strong>Hooks</strong></a></h3>
+<h3>3.03 <a href="#ch3-03"><strong>Implementing Forms</strong></a></h3>
+<h3>3.04 <a href="#ch3-04"><strong>Introduction to Redux</strong></a></h3>
+<h3>3.05 <a href="#ch3-05"><strong>Essential Concepts of Redux - Stores, Procedures and Actions</strong></a></h3>
+<h3>3.06 <a href="#ch3-06"><strong>Async with Redux</strong></a></h3>
+<h3>3.07 <a href="#ch3-07"><strong>Binding Redux and Flow</strong></a></h3>
+<h3>3.08 <a href="#ch3-08"><strong>Hands-on Lab: React Redux</strong></a></h3>
+<h3>3.09 <a href="#ch3-09"><strong>Reading Module 3 Summary</strong></a></h3>
 <h3>3.10 <a href="#ch3-10"><strong>Glossary: Advanced React</strong></a></h3>
 <h3>3.11 <a href="#ch3-11"><strong>Cheatsheet: Advanved React</strong></a></h3>
 </blockquote>
@@ -314,12 +159,12 @@ HTML, CSS, and JavaScript course before starting this course.</p>
 <h2>4. <a href="#ch4"><strong>Module 4: Final Project</strong></a></h2>
 
 <blockquote>
-<h3>4.1 <a href="#ch4-1"><strong>Module 4 Introduction &amp; Learning Objectives</strong></a></h3>
-<h3>4.2 <a href="#ch4-2"><strong>Hands-on Lab: Friends List Application Using Express Server with JNT</strong></a></h3>
-<h3>4.3 <a href="#ch4-3"><strong>Project Overview: Scenario and Review Criteria</strong></a></h3>
-<h3>4.4 <a href="#ch4-4"><strong>Project Breakdown</strong></a></h3>
-<h3>4.5 <a href="#ch4-5"><strong>Hands-on Lab: Book Review Application</strong></a></h3>
-<h3>4.6 <a href="#ch4-6"><strong>Module 4 Summary</strong></a></h3>
+<h3>4.01 <a href="#ch4-1"><strong>Module 4 Introduction &amp; Learning Objectives</strong></a></h3>
+<h3>4.02 <a href="#ch4-2"><strong>Hands-on Lab: Friends List Application Using Express Server with JNT</strong></a></h3>
+<h3>4.03 <a href="#ch4-3"><strong>Project Overview: Scenario and Review Criteria</strong></a></h3>
+<h3>4.04 <a href="#ch4-4"><strong>Project Breakdown</strong></a></h3>
+<h3>4.05 <a href="#ch4-5"><strong>Hands-on Lab: Book Review Application</strong></a></h3>
+<h3>4.06 <a href="#ch4-6"><strong>Module 4 Summary</strong></a></h3>
 </blockquote>
 
 <h2>5. <a href="ch5"><strong>Course Wrap-Up</strong></a></h2>
@@ -618,9 +463,7 @@ full-fledged React front-end application.</p>
   <li><p>With Create React App, you can easily create a React application.</p></li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch1-3">
-1.3. Insiders Viewpoints: Front-end Frameworks (3:09)
-</h2>
+<h2 id="ch1-3">1.3 Insiders Viewpoints: Front-end Frameworks (3:09)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Welcome to Expert Viewpoints: Using Front-end JavaScript
 Frameworks.</p>
@@ -664,7 +507,7 @@ except for some student projects.</p>
 <p>And fortunately, I've never had to go into it any deeper than just
 editing existing code.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2 id="ch1-4">1.4.Introduction to ES6 (6:46)</h2>
+<h2 id="ch1-04">1.4 Introduction to ES6 (6:46)</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Welcome to Introduction to ES6.</p>
 <p>After reading this module, you will be able to:</p>
@@ -1079,13 +922,12 @@ Fortunately, create-react-app command will take care of this compilation
 and you don't need to worry about it.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 42. benefits of using jsx (39) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image042.png?raw=true"
   alt="Benefits of using JSX."
-  width="50%" />
+  style="width:50%" />
 </p>
-<!-- ![](./images/image042.png){width="6.5in" height="3.65625in"} -->
+
 <p>Let’s discuss some benefits of using JSX.</p>
 <p>To start with less technical people can understand and modify the
 required parts.</p>
@@ -1108,27 +950,25 @@ Let’s make a React component using JSX and see how it translates to
 regular JavaScript function calls.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 43. react code example (40) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image043.png?raw=true"
   alt="React Code Example."
-  width="50%" />
+  style="width:50%" />
 </p>
-<!-- ![](./images/image043.png){width="6.5in" height="3.65625in"} -->
+
 <p>To start with, this code example demonstrates an app that creates a
 div element with a list of two items that displays Items number 1 and
 2.</p>
 The App function contains code which looks extremely similar to plain
 HTML and uses the same XML-based syntax.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 44. react example, cont'd (41) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 44. react example, cont'd (41) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image044.png?raw=true"
-  alt="."
-  width="50%" />
+  alt="React example, cont'd."
+  style="width:50%" />
 </p>
-<!-- ![](./images/image044.png){width="6.5in" height="3.65625in"} -->
+
 <p>This is how the compiled code in regular Javascript function calls
 looks like.</p>
 <p>Without JSX, React code would have to be written with lots of nesting
@@ -1154,9 +994,9 @@ which makes the code unreadable, ugly and difficult to maintain.</p>
 <p align="center" width="100%">
 <img src="./images/image045.png?raw=true"
   alt="Components: What You Will Learn."
-  width="50%" />
+  style="width:50%" />
 </p>
-<!-- ![](./images/image045.png){width="6.5in" height="3.65625in"} -->
+
 <p>Welcome to Introduction to Components.</p>
 <p>After reading this section, you will be able to;</p>
 
@@ -1168,26 +1008,24 @@ which makes the code unreadable, ugly and difficult to maintain.</p>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 46. what is a component? (43) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image046.png?raw=true"
   alt="What is a Component?"
-  width="50%" />
+  style="width:50%" />
 </p>
-<!-- ![](./images/image046.png){width="5.0in" height="2.8125in"} -->
+
 <p>A component is one of the core building blocks of React.</p>
 <p>In other words, every application you develop in React will be made
 up of pieces called components.</p>
 <p>Components make the task of building user interface easier.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 47. components: every application in react (43) ~~~~~~~~~~~~~~~~~~~~~~~->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image047.png?raw=true"
   alt="In React, Components comprise every application written."
-  width="50%" />
+  style="width:50%" />
 </p>
-<!-- ![](./images/image047.png){width="5.0in" height="2.8125in"} -->
+
 <p>You can break down the UI into multiple individual pieces called
 components and merge them all into a parent component that forms the
 final UI.</p>
@@ -1198,13 +1036,12 @@ separate elements.</p>
 object which is rendered on the screen.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 48. features of react components (44) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image048.png?raw=true"
   alt="Features of React Components."
-  width="50%" />
+  style="width:50%" />
 </p>
-<!-- ![](./images/image048.png){width="5.0in" height="2.8125in"} -->
+
 <p>A React component represents a small chunk of user interface in a
 webpage.</p>
 <p>The primary function of a React component is to render its user
@@ -1217,9 +1054,9 @@ its user interface, such as a button component which has a click event.</p>
 <p align="center" width="100%">
 <img src="./images/image049.png?raw=true"
   alt="What is a State of Component?"
-  width="50%" />
+  style="width:50%" />
 </p>
-<!-- ![](./images/image049.png){width="5.0in" height="2.8125in"} -->
+
 <p>State is an object that describes how the component will behave and
 render currently.</p>
 <p>A React component can be either “stateful” or “stateless.”</p>
@@ -4690,16 +4527,17 @@ Android view components instead of HTML.</p>
 triggering the re-rendering of the DOM.</p></li>
 <li><p>The Redux elements that are involved in updating of the component
 properties are:</p>
+
 <ul>
-<li><p>Central Store,</p></li>
-<li><p>Actions,</p></li>
-<li><p>Reducer, and</p></li>
-<li><p>Subscription.</p></li>
-</ul></li>
-<li><p>The data flow in a React-Redux application is
-unidirectional.</p></li>
-<li><p>And, it's easier to manage the state when actions performed on
-the UI are separated from the changing of the state.</p></li>
+  <li><p>Central Store,</p></li>
+  <li><p>Actions,</p></li>
+  <li><p>Reducer, and</p></li>
+  <li><p>Subscription.</p>
+  <ul>
+    <li><p>The data flow in a React-Redux application is unidirectional.</p></li>
+    <li><p>And, it's easier to manage the state when actions performed on the UI 
+      are separated from the changing of the state.</p></li>
+  </ul></li>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch3-8">3.8 Hands-on Lab: React Redux</h2>
@@ -4712,23 +4550,25 @@ to increment the counter using Redux. Redux library has all that it
 requires for store management and react-redux binds react and redux
 libraries together.</p>
 <p>The store management with redux has 3 main components:</p>
+
 <ul>
-<li><p>Actions - These are blocks of information that send data from
-your application to your store. Actions must have a type property that
-indicates the type of action being performed.</p></li>
-<li><p>Reducers - Reducers specify how the application’s state changes
-in response to actions sent to the store.</p></li>
-<li><p>Store - The Store is the object that brings the action and
-reducer together. The store has the following responsibilities: holds
-application state, allows access to state, allows state to be updated
-via dispatch(action).</p></li>
+  <li><p>Actions - These are blocks of information that send data from
+  your application to your store. Actions must have a type property that
+  indicates the type of action being performed.</p></li>
+  <li><p>Reducers - Reducers specify how the application’s state changes
+  in response to actions sent to the store.</p></li>
+  <li><p>Store - The Store is the object that brings the action and
+  reducer together. The store has the following responsibilities: holds
+  application state, allows access to state, allows state to be updated
+  via dispatch(action).</p></li>
 </ul>
-<p>Note: In case you are unable to access the Start Lab button,
-instructions to complete this lab are also available <a
-href="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0210EN-SkillsNetwork/labs/module3/Hands-on-lab-react-redux.md.html"> HERE. </a></p>
-<h3>
-Hands-on Lab: React Redux (External resource)
-</h3>
+
+<p>Note: In case you are unable to access the Start Lab button, 
+<a href="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0210EN-SkillsNetwork/labs/module3/Hands-on-lab-react-redux.md.html">
+instructions to complete this lab are available HERE.</a></p>
+
+<h3>Hands-on Lab: React Redux (External resource)</h3>
+
 <p>Clicking on the Start Lab button below will launch the cloud based SN
 labs virtual labs environment with instructions to complete this lab.
 Your username and email will be shared with SN Labs to authenticate and
@@ -4738,33 +4578,31 @@ provision your lab environment.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Congratulations! You have completed this module. At this point in the
 course, you know:</p>
+
 <ul>
-<li><p>Hooks provide a way to use functionalities such as context or
-state, without classes. </p></li>
-<li><p>Inputs in React can be one of two types: controlled or
-uncontrolled. </p></li>
-<li><p>Redux is a state management library that is often used with React
-to handle the state of your application.  </p></li>
-<li><p>The Redux elements that are involved in updating the component
-properties are action, store, and reducer.  </p></li>
-<li><p>You can interact with asynchronous data in your React Redux app
-using middleware.  </p></li>
-<li><p>The data flow in the React-Redux application is
-unidirectional.  </p></li>
+  <li><p>Hooks provide a way to use functionalities such as context or state, 
+    without classes. </p></li>
+  <li><p>Inputs in React can be one of two types: controlled or uncontrolled.</p></li>
+  <li><p>Redux is a state management library that is often used with React to 
+    handle the state of your application.</p></li>
+  <li><p>The Redux elements that are involved in updating the component properties 
+    are action, store, and reducer.</p></li>
+  <li><p>You can interact with asynchronous data in your React Redux app using 
+    middleware.</p></li>
+  <li><p>The data flow in the React-Redux application is unidirectional.</p></li>
 </ul>
-<h3>
-Glossary - Advanced React
-</h3>
+
+<h3>Glossary - Advanced React</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 91. ibm skills network logo (^^) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image091.png?raw=true"
+  loading="lazy"
+  title="IBM Skills network logo"
   alt="IBM Skills network logo."
-  width="25%" />
+  style=width:25%" />
 </p>
-<!-- ![https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0210EN-SkillsNetwork/Glossary/images/IDSN-new-logo\_\_1\_.png](./images/image091.png){width="3.125in" height="1.0833333333333333in"} 
--->
+
 <h3>Developing Cloud Applications with React</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch3-10">3.10 Module 3: Glossary - Advanced React</h2>
@@ -4925,15 +4763,15 @@ form elements and collect data through React's change events.</td>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch3-11">3.11 Reading: Cheatsheet - Advanced React</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 91.  (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 91. skills network logo (xxx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image091.png?raw=true"
-  alt="image091."
-  width="30%" />
+  loading="lazy"
+  title="Skills Network logo"
+  alt="Skills Network logo."
+  style="width:25%" />
 </p>
-<!-- ![https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0210EN-SkillsNetwork/CheatSheets/images/IDSNlogo.png](./images/image091.png){width="3.125in" height="1.0833333333333333in"} 
--->
+
 <p><b>Advanced React</b> <b>Module 3 Advanced React</b></p>
 
 <h3>© IBM Corporation 2022. All rights reserved.</h3>
@@ -5017,14 +4855,13 @@ into your budget allocation app. The completed Budget Allocation
 application page should look like the image below:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~ 101. completed budget allocation app page (1xx) ~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image101.png?raw=true"
+  loading="lazy"
+  title="Completed budget allocation app"
   alt="Completed budget allocation app."
-  width="67%" />
+  style="width:67%" />
 </p>
-<!-- ![https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0210EN-SkillsNetwork/labs/Final%20project-budget%20app/images/finalbudget.png](./images/image101.png)
--->
 
 <h3>Review Criteria:</h3>
 
@@ -5048,16 +4885,16 @@ application:</p>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 102. form label currency (127) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~--></p>
 <p align="center" width="100%">
-<p><img src="./images/image102.png?raw=true"
+<img src="./images/image102.png?raw=true"
+  loading="lazy"
+  title="Form label field currency"
   alt="Form label field currency."
-  style="width:67%" /></p>
+  style="width:67%" />
 </p>
-<!-- ![https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0210EN-SkillsNetwork/labs/Final%20project-budget%20app/images/task_1.PNG](./images/image102.png){width="6.635416666666667in" height="0.8020833333333334in"} 
--->
 
 <p><b>3:</b> Dropdown to change currency <b>(4 pts)</b></p>
+
 <p>Provide a screenshot of the dropdown list for Currency component. It
 should show that the application:</p>
 
@@ -5070,13 +4907,14 @@ should show that the application:</p>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~ 103. currency: dollar, pound, euro and ruppee (128) ~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image103.png?raw=true"
+  loading="lazy"
+  title="Currency: dollar, pound, euro, and ruppee"
   alt="Currency: dollar, pound, euro, and ruppee."
-  width="32%" />
+  style="width:32%" />
 </p>
-<!-- ![https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0210EN-SkillsNetwork/labs/Final%20project-budget%20app/images/task_2.png](./images/image103.png){width="3.1979166666666665in" height="2.8333333333333335in"} -->
+
 <p><b>4:</b> Add a currency prefix to the <b>Change allocation</b>
 textbox <b>(1 pts)</b></p>
 <p><b>5:</b> Add a currency prefix to the <b>budget value</b> textbox
@@ -5096,14 +4934,14 @@ value, all the currency representation on the screen changes.</p>
 </ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 104. company's budget allocation (129) ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image104.png?raw=true"
+  loading="lazy"
+  title="Company's budget allocation"
   alt="Company's budget allocation."
-  width="67%" />
+  style="width:67%" />
 </p>
-<!-- <a href="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0210EN-SkillsNetwork/labs/Final%20project-budget%20app/images/task_3.PNG"> -->
-<!-- ./images/image104.png) {width="6.677083333333333in" height="3.1354166666666665in"} -->
+
 <p><b>7:</b> Decrease and Increase Buttons <b>(4 pts)</b></p>
 <p>Provide a screenshot that shows that,</p>
 
@@ -5133,14 +4971,13 @@ React application.</p>
 <p>Note: In case you are unable to access the Start Lab button,
 instructions to complete this lab are also available<a
 href="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0210EN-SkillsNetwork/labs/Final%20project-budget%20app/Final_Project.md.html"> here</a>.</p>
-<h2
-id="hands-on-lab-final-project-budgeting-allocation-application-external-resource">Hands-on
-lab: Final Project (Budgeting Allocation Application) (External
-resource)</h2>
-Clicking on the Start Lab button below will launch the cloud-based SN
+
+<h2>>Hands-on lab: Final Project (Budgeting Allocation Application) (External resource)</h2>
+
+<p>Clicking on the Start Lab button below will launch the cloud-based SN
 labs virtual labs environment with instructions to complete this lab.
 Your username and email will be shared with SN Labs to authenticate and
-provision your lab environment.
+provision your lab environment.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2 id="ch4-6">4.6 Module 4 Summary</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5178,7 +5015,8 @@ specifically for back-end developers.</p>
 <p>We encourage you to leave your feedback and rate this course so that
 we can continue to improve the course content.</p>
 
-<h6>Last Updated 11-15-2023 8:01pm</h6>
+<h6>Prior Updated 11-15-2023 8:01pm</h6>
+<h6>Last Updated 5-14-2024 3:40pm</h6>
 
 <h6>… the end</h6>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
